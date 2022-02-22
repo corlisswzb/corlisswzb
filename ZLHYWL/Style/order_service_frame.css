@@ -1,0 +1,53 @@
+﻿.service_route_part{
+    
+    border:solid 1px #95b8e7;
+    padding-bottom:3px;
+    margin-bottom:3px;
+}
+.service_route_part .top {
+    font-size:12px;
+    font-weight:bold;
+    background-color:#daeef5;
+    height:28px;
+}
+.service_route_part .top .title {
+    float:left;
+    line-height:28px;
+    padding-left:8px;
+}
+
+.service_route_part .top .tools {
+    float:right;
+    padding-right:8px;
+}
+
+.service_route_part .middle{
+    font-size:12px;
+}
+
+
+.cls_dv_service_title{
+    background-color:#daeef5;
+    padding-left:12px;
+    height:32px;
+    line-height:28px;
+}
+
+.cls_dv_service_title .title{
+    font-size:16px;
+    font-weight:bold; 
+}
+
+
+.cls_td_service_title{
+    width:60px;height:31px;background-color:#daeef5;text-align:center;
+}
+
+.cls_td_link{
+    cursor:pointer;
+}
+
+.cls_td_link:hover{
+    font-weight:bold;
+    background-color:#bed5f7;
+}

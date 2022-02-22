@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <script src="Script/jquery-easyui-1.8.6/jquery.min.js"></script>
+    <script>
+        function preview() {
+
+            $("#dv_load_html").load("test.html");
+           
+           
+
+
+            var bdhtml = $("#dv_load_html").html();
+            //bdhtml = window.document.body.innerHTML;
+            sprnstr = "<!--startprint-->";
+            eprnstr = "<!--endprint-->";
+            prnhtml = bdhtml.substr(bdhtml.indexOf(sprnstr) + 17);
+            prnhtml = prnhtml.substring(0, prnhtml.indexOf(eprnstr));
+            window.document.body.innerHTML = prnhtml;
+            window.print();
+            //prnform.htext.value=prnhtml;
+            //prnform.submit();
+            //alert(prnhtml);
+        }
+
+        function test() {
+
+            var   xmlhttp=new   ActiveXObject("Msxml2.xmlhttp")   
+             xmlhttp.open("GET","test.html",false)   
+             xmlhttp.send()
+             var m=bytes2BSTR(xmlhttp.ResponseBody);
+             document.write(m);   
+        }
+
+       
+    </script>
+</head>
+<body>
+  
+    <center>本部分以上不被打印</center>
+    <!--startprint-->
+    <table width="84%" align="center" bgcolor="#0000FF" cellpadding="2" cellspacing="1">
+        <tr bgcolor="#6699FF">
+            <td>
+                <div align="center">标题一</div>
+            </td>
+            <td>
+                <div align="center">标题二</div>
+            </td>
+            <td>
+                <div align="center">标题三</div>
+            </td>
+            <td>
+                <div align="center">标题四</div>
+            </td>
+            <td>
+                <div align="center">标题五</div>
+            </td>
+        </tr>
+        <tr bgcolor="#6699FF">
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+    </table>
+    <!--endprint-->
+    <center>本部分以下不被打印</center>
+    <div id="dv_load_html"></div>
+    <div align="center">
+        <input type="button" name="print" value="预览并打印" onclick="preview()">
+        <input class=Noprn type=button onclick="window.print()" value="print">
+        <input class=Noprn type=button onclick="test()" value="11">
+        </div>
+
+</body>
+
+</html>

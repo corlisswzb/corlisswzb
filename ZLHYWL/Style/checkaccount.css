@@ -1,0 +1,191 @@
+﻿ 
+
+a.btn_show_ca_attachment{ display:block;  
+                          line-height:16px;
+height:16px;
+border:1px outset #00bb18;
+background:#00bb18; text-align:center;
+padding-left:4px;
+padding-right:4px;
+ color:#fff; text-decoration:none; border-radius:4px;  }
+a.btn_show_ca_attachment:hover{ border:1px outset #00bb18;; background:#00ff21; text-decoration:none; } 
+
+a.ca_file{
+    text-decoration:none;
+    color:#484848;
+}
+
+.dv_od_lock_tips{
+    padding:12px;
+    background-color:#daeef5;
+    line-height:18px;
+    margin-bottom:12px;
+}
+.cls_group_select_fee_infos{
+    padding:0px;
+    font-size:12px;
+    font-weight:bold;
+    table-layout:fixed;
+    border-spacing:0px;
+    border-collapse:separate;
+}
+.cls_group_select_fee_infos td {
+    padding:0px; 
+    border:solid 1px #a0a0a0; 
+    text-align:center;
+}
+ 
+.ap_flow_details_tim{
+    padding:6px;
+    border-top:solid 1px #e6eef8;
+    border-top-left-radius:4px;
+    border-left:solid 1px #e6eef8;
+    background-color:#e2e2e2;
+    text-align:center;
+}
+.ap_flow_details_nam{
+    border-top:solid 1px #e6eef8; 
+    text-align:left;
+    padding-left:6px;
+}
+.ap_flow_details_advice {
+    border-top:solid 1px #e6eef8;
+    border-top-right-radius:4px;
+    border-right:solid 1px #e6eef8;
+    text-align:right;
+    padding-right:6px;
+    background-color:#ff9250;
+    color:#fff;
+}
+.ap_flow_details_desc{
+    border-top:solid 1px #e6eef8; 
+    text-align:right;
+    background:#e9e9e9;
+    padding-right:6px;
+}
+
+.ap_flow_details_advice_left{
+    padding:6px;
+    border-top:solid 1px #e6eef8; 
+    border-bottom:solid 1px #e6eef8; 
+    border-left:solid 1px #e6eef8; 
+    border-bottom-left-radius:4px;
+    text-align:center;
+    vertical-align:top;
+    background-color:#e2e2e2;
+}
+
+.ap_flow_details_context_right{
+    border-top:solid 1px #e6eef8; 
+    border-bottom:solid 1px #e6eef8; 
+    border-right:solid 1px #e6eef8; 
+    border-bottom-right-radius:4px; 
+    padding-right:6px;
+}
+
+.cls_group_order_fee{ 
+    table-layout:fixed; 
+    width:auto;
+}
+
+.cls_group_order_fee td{
+    line-height:24px;
+    padding-left:4px;
+    padding-right:4px;
+    white-space: nowrap;
+    
+}
+.cls_group_order_fee .cls_rec_title{
+    background:#926565;
+    color:#FFF;
+}
+
+.cls_group_order_fee .cls_pay_title{
+    background:#005624;
+    color:#FFF;
+}
+
+.cls_group_order_fee .cls_profit_title{
+    background:#fd60a6;
+    color:#fff;
+}
+.cls_group_order_fee .cls_rec_value{
+    font-weight:bold;
+    color:#926565; 
+}
+.cls_group_order_fee .cls_pay_value{
+    font-weight:bold;
+    color:#005624; 
+}
+.cls_group_order_fee .cls_profit_value{
+    font-weight:bold;
+    color:#fd60a6; 
+}
+.cls_group_order_fee .cls_total_title{
+    background:#73436f;
+    color:#FFF;
+}
+.cls_group_order_fee .cls_total_value{
+    font-weight:bold; 
+    color:#73436f;
+}
+
+.selected_group_order_fee{
+    text-align:right;
+}
+
+.cls_approval_details_head{
+    border-bottom:solid 1px #a0a0a0;
+    margin-bottom:16px;
+    
+}
+
+.cls_approval_details_head .title {
+    color:#4c4c4c;
+    background:#e9e9e9;
+    text-align:right;
+    padding-right:4px;
+}
+.cls_approval_details_head .value {
+    padding-left:4px;
+    padding-right:4px;
+
+}
+
+
+.cls_checkbox label{
+    font-weight:bold;
+}
+
+ 
+.abtab_print
+{
+    width:100%;
+    box-sizing:border-box; 
+    table-layout:fixed; 
+    font-size:14px;
+    position:relative; 
+}
+ 
+.abtab_print td,th {
+    
+    padding:4px;
+ 
+	overflow:hidden;
+	 
+    border:1px dotted #555; 
+}
+ 
+
+.abtab_print .title2{
+    text-align:center;  
+}
+.abtab_print .value{  
+    
+}
+.abtab_print .cvalue{ 
+    
+    text-align:left;
+    vertical-align:top;
+}
+ 

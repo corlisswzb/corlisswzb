@@ -1,0 +1,81 @@
+﻿.print_body{
+    width:980px;
+    margin:0px auto;  
+}
+.print_btn{
+    width:700px;
+    margin:0px auto; 
+    margin-top:10px;
+}
+.top_title{
+    text-align:center;
+    font-size:24px; 
+    line-height:38px;
+    height:80px;
+}
+ 
+.tab_print
+{
+    width:100%;
+    box-sizing:border-box; 
+    table-layout:fixed; 
+    font-size:14px; 
+}
+.tab_print tbody td{
+    border:1px solid #555;
+}
+
+.tab_print .title{
+      
+    padding:4px; 
+}
+
+.tab_print .title2{
+    text-align:center; 
+    padding:4px; 
+}
+.tab_print .value{
+    padding:4px;  
+    word-wrap:break-word;
+}
+.tab_print .cvalue{
+    height:24px;
+    padding:4px;  
+    word-wrap:break-word;
+    text-align:left;
+    vertical-align:top;
+}
+
+
+ 
+.abtab_print
+{
+    width:100%;
+    box-sizing:border-box; 
+    table-layout:fixed; 
+    font-size:14px;
+    position:relative; 
+}
+ 
+.abtab_print td,th {
+    
+    padding:4px;
+ 
+	overflow:hidden;
+	 
+    border:1px dotted #555; 
+}
+ 
+
+.abtab_print .title2{
+    text-align:center;  
+}
+.abtab_print .value{  
+    
+}
+.abtab_print .cvalue{ 
+    
+    text-align:left;
+    vertical-align:top;
+}
+ 

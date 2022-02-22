@@ -1,0 +1,91 @@
+﻿body {
+}
+
+
+ ul.ul_ss_menu {
+    margin: 0px;
+    padding: 0;
+    float: none; 
+    overflow :auto; 
+}
+
+ul.ul_ss_menu li.li_ss_menuitem {
+    margin: 0px;
+    padding: 0px;
+    height: 32px;
+    line-height: 32px;
+    text-align: left;
+    border-bottom: solid 1px #ddd;
+}
+
+ul.ul_ss_menu li.li_ss_menuitem a,
+ul.ul_ss_menu li.li_ss_menuitem a:hover,
+ul.ul_ss_menu li.li_ss_menuitem a:visited,
+ul.ul_ss_menu li.li_ss_menuitem a:link {
+    text-decoration: none;
+    color: #333;
+    font-size: 9px;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ul.ul_ss_menu li.li_ss_menuitem a:hover {
+    background-color: #ffc6a1;
+}
+
+ul.ul_lditem {
+    margin: 0px;
+    padding: 0;
+    float: none; 
+    overflow :auto; 
+}
+
+ul.ul_lditem li.li_item {
+        text-decoration: none;
+        color: #333;
+        margin: 0px;
+        padding: 0px 0px 0px 10px;
+        height: 32px;
+        line-height: 32px;
+        text-align: left;
+        /*background-color: #f3f3f3;*/
+        border-bottom: solid 1px #ddd;
+}
+
+ul.ul_lditem li.li_item:hover {
+    cursor: pointer;
+    background-color: #B3DFDA;
+}
+
+.li_item_selected {
+    border-right:6px solid red;
+    background-color: #a1dfff;
+}
+
+.li_ss_menuitem_selected {
+    background-color: #a1dfff;
+    border-right:6px solid red;
+}
+
+/**合同 标准、过期 标签 */
+.span_std_title{
+    color: #1feb30;
+}
+.span_validate_title{
+    color:#ff0000;
+}
+
+.cls_rec{
+    background-color:#ff6a00;
+    color:#fff;
+}
+.cls_pay{
+    background-color:#00ff21;
+}
+
+/***************/
+.contract_cls{
+    background-position: left center;
+    padding: 0 0 0 7px;
+}

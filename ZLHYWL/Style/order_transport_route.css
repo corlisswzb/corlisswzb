@@ -1,0 +1,33 @@
+﻿div.cls_tsrb{ 
+    color:#aaa;
+    font-size:9px;
+    display:block;
+    float:left;
+}
+
+div.cls_tsrb_left{
+    height:160px; 
+    line-height:160px;  
+}
+div.cls_tsrb_right{
+    height:160px; 
+    line-height:160px;  
+}
+
+div.cls_tsrb_mid{
+
+}
+div.cls_tsrb_row{
+    height:18px;
+    line-height:18px;
+    padding-left:12px;
+}
+
+.menu_fa_icon .menu-icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 2px;
+    top: 50%;
+    margin-top: -6px;
+} 

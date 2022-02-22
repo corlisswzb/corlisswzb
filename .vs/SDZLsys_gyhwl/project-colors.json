@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "99d845fb-1473-4678-bea2-7279ad0fdebd": {
+      "ProjectGuid": "99d845fb-1473-4678-bea2-7279ad0fdebd",
+      "DisplayName": "BASECONFIG",
+      "ColorIndex": 0
+    },
+    "3e60619d-d6e9-4792-a24f-d128336cc142": {
+      "ProjectGuid": "3e60619d-d6e9-4792-a24f-d128336cc142",
+      "DisplayName": "SDZL",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

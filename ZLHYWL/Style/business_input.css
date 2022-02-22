@@ -1,0 +1,218 @@
+﻿body {
+}
+
+
+
+.wt-table {
+    vertical-align: middle;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+    .wt-table tr {
+        margin-bottom: 5px;
+    }
+
+    .wt-table .wt-label {
+        padding: 2px;
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .wt-table .wt-content {
+        padding-left: 10px;
+        text-align: left;
+    }
+
+
+
+
+
+
+
+
+
+.column {
+    position: relative;
+    height: 23px;
+    border-bottom: 1px solid #d4d4d4;
+    margin-bottom: 10px;
+}
+
+    .column span.current {
+        position: relative;
+        top: 0px;
+        display: inline-block;
+        color: #4bb6f4;
+        font-size: 12px;
+        font-weight: bold;
+        height: 22px;
+        line-height: 22px;
+        border-bottom: 2px solid #ff9d02;
+    }
+
+.kv-table {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table.kv-table td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+    border: 1px solid #cacaca;
+}
+
+
+
+
+table.kv-table tr:first-child td.kv-content, table.kv-table tr:first-child td.kv-label {
+    border-top: 1px solid #cacaca;
+}
+
+
+
+table.kv-table td.kv-label {
+    text-align: center;
+}
+
+table.kv-table .kv-label {
+    width: 100px;
+    background: #f5f5f5;
+    border-top: none;
+}
+
+table.kv-table td.kv-label {
+    height: 26px;
+    font-size: 12px;
+}
+/*海运css*/
+.hy-table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.hy-label {
+    width: 8%;
+    text-align:center;
+}
+
+.hy-content {
+    width: 12%;
+}
+
+.hy-table td {
+    border: 1px solid #cacaca;
+    font-size: 12px;
+    font-weight: normal;
+}
+/*end*/
+
+
+
+.ts-table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.ts-label {
+    width: 8%;
+    padding-left: 10px;
+}
+
+.ts-content {
+    width: 17%;
+}
+
+.ts-table td {
+    border: 1px solid #cacaca;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+.dc-table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+    .dc-table td {
+        border: 1px solid #cacaca;
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+.dc-label {
+    width: 5%;
+    text-align:center;
+}
+
+.dc-content {
+    width: 15%;
+}
+
+/*/////////////CSS 下拉菜单///////////////*/
+.dropbtn {
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 10px;
+    background-color: #4876FF;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 13px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    opacity: .9;
+}
+
+
+/*.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    text-align:left;
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover  .dropbtn{
+    background-color: #3e8e41;
+}

@@ -1,0 +1,182 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main_page.master.cs" Inherits="SDZL.main_page" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>智联货运管理系统</title>
+    <link href="Script/easy-ui-v132/themes/metro-blue/easyui.css" rel="stylesheet" /> 
+    <link href="Script/easy-ui-v132/themes/icon.css" rel="stylesheet" />
+    <link href="Style/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="Style/public.css" rel="stylesheet" /> 
+    <script src="Script/easy-ui-v132/jquery-1.8.0.min.js"></script>
+    <script src="Script/easy-ui-v132/jquery.easyui.min.js"></script>
+    <script src="Script/easy-ui-v132/locale/easyui-lang-zh_CN.js"></script>
+     <script src="Script/jquery.cookie.js"></script>
+   <%-- <script src="Script/layer/layer.js"></script>
+    <script src="Script/jquery-easyui-datagridview/datagrid-detailview.js"></script>--%>
+    <!--easyui扩展-->
+   <%-- <script src="Script/easyui-extlib/jquery.jdirk.js"></script>
+    <script src="Script/easyui-extlib/ViewShowSource.js"></script>
+    <script src="Script/easyui-extlib/transposed.js"></script><!--行转列-->
+    <script src="Script/easyui-extlib/tooltip.js"></script><!--提示-->
+    <script src="Script/easyui-extlib/datagrid-export.js"></script> <!--datagrid导出excel-->--%>
+    <%--<script src="Script/jquery-easyui-extensions/datagrid/ViewTooltipSource.js"></script>--%>
+    
+    <%--<script type="text/javascript" src="http://www.jq22.com/demo/clipboard.js-master201703170013/dist/clipboard.min.js"></script>--%>
+    
+    <script src="Js/public.js"></script> 
+    <script src="Js/master.js"></script>
+
+     
+    <asp:ContentPlaceHolder ID="head" runat="server">
+         
+    </asp:ContentPlaceHolder>
+</head>
+<body class="easyui-layout"> 
+    <!--头部内容--->
+    <div data-options="region:'north',border:false" style="height:40px;overflow:hidden;">
+        <div class="easyui-panel" data-options="fit:true,border:false">
+            <div class="easyui-layout  " fit="true" >
+                <div data-options="region:'west',border:false"  style="width:420px;" class="custom_bg">
+                    <div class="master_top_left_title">
+                        <span style="font-size:18px">
+                            <asp:Label ID="lbl_company_desc" ClientIDMode="Static" runat="server" Font-Size="18px"></asp:Label>ONLINE</span>
+                    </div>
+                </div>
+                <div data-options="region:'east',border:false" style="width:300px;" class="custom_bg">
+                    <div class="right_user_info">
+                        <div style="float:left; margin-right:8px;"> 
+                            <a href="javascript:void();"  style="padding:0px;"><i class="icon-mail" style="display:table; float:left; padding-top:8px; height:16px;width:16px; margin:auto;"></i> &nbsp;&nbsp;<span class="msg_tips">(0)</span></a> 
+                     
+                        </div> 
+                        <div> <!--class="easyui-menubutton" data-options="menu:'#mm2',"-->
+                            <span>登录账户:</span>&nbsp;&nbsp;<a href="javascript:void(0);" id="href_id"  ><asp:Label ID="lbl_name" runat="server" ClientIDMode="Static" Text=""></asp:Label></a>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div data-options="region:'center',border:false" class="custom_bg">
+                    <!--菜单--->
+                    <div id="top_menus"  style="height:28px;float:left; padding-top:12px;"> 
+                    </div> 
+                    <!--二级菜单，隐藏-->
+                    <div id="dv_hidden"></div>
+                    <!---->
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+	 
+    <!--右侧内容--->
+	<div data-options="region:'center',title:''">
+       <%--<div id="tt" class="easyui-tabs" data-options="pill:true" style="width:100%;height:100%"></div>--%>
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+	</div>
+	<!--底部--->
+	<div data-options="region:'south',border:false" style="height:28px;overflow:hidden; background:#eee;border-bottom:1px solid #4bb6f4">
+        <div class="system_name">
+              <i class="iconfont"></i>
+              <span>智联货运物流系统&nbsp;v1.0</span>
+              &nbsp;&nbsp;&nbsp;当前时间:&nbsp;&nbsp;&nbsp;<span id="sysdate"></span>
+            </div>
+        <div class="copyright_name">
+            <span>CopyRight&nbsp;@2020&nbsp;&nbsp;武汉苍何物流科技有限公司&nbsp;版权所有</span>
+            <i class="iconfont"></i>
+        </div>
+	</div>
+    <!--更改密码-->
+    <div id="dlg_change_password"> 
+        <form>
+		    <table class="tab_from" style="margin-top:8px;">
+                <col style="width:25%"/>
+                <col style="width:75%"/> 
+                <tr> 
+                    <td class="title">
+                        <i class="i_must">*</i>原密码:
+                    </td>
+                    <td class="value">
+                        <input class="easyui-textbox" type="password" autocomplete="off"  id="dlg_old_password"   style="width:160px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="title">
+                        <i class="i_must">*</i>新密码:
+                    </td>
+                    <td class="value">
+                        <input class="easyui-textbox" type="password" autocomplete="off" id="dlg_new_password"   style="width:160px;"/>
+                    </td>
+                    </tr>
+                <tr>
+                    <td class="title">
+                        <i class="i_must">*</i>重复新密码:
+                    </td>
+                    <td class="value">
+                        <input class="easyui-textbox" type="password" autocomplete="off" id="dlg_new_password_again"   style="width:160px;"/>
+                    </td>
+                </tr> 
+		    </table> 
+        </form>    
+    </div>
+    <!--更改个人资料-->
+    <div id="dlg_change_myinfo"> 
+		<table class="tab_from" style="margin-top:8px;">
+            <col style="width:25%"/>
+            <col style="width:75%"/> 
+            <tr> 
+                <td class="title">
+                    登录账号:
+                </td>
+                <td class="value">
+                    <input type="text" id="dlg_mu_login_name" autocomplete="off" class="easyui-textbox" readonly="true"    style="width:160px;" />
+                </td>
+            </tr>
+            <tr> 
+                <td class="title">
+                    姓名:
+                </td>
+                <td class="value">
+                    <input type="text" id="dlg_mu_real_name" autocomplete="off" style="width:160px;"  class="easyui-textbox" />
+                </td>
+            </tr>
+            <tr> 
+                <td class="title">
+                    手机:
+                </td>
+                <td class="value">
+                    <input type="text" id="dlg_mu_phone" style="width:160px;" class="easyui-textbox" />
+                </td>
+            </tr>
+            <tr> 
+                <td class="title">
+                    邮箱:
+                </td>
+                <td class="value">
+                    <input type="text" id="dlg_mu_email" autocomplete="off" style="width:160px;" class="easyui-textbox" />
+                </td>
+            </tr>
+            <tr> 
+                <td class="title">
+                    QQ:
+                </td>
+                <td class="value">
+                    <input type="text" id="dlg_mu_qq" autocomplete="off" style="width:160px;" class="easyui-textbox" />
+                </td>
+            </tr>
+            <tr> 
+                <td class="title">
+                    微信:
+                </td>
+                <td class="value">
+                    <input type="text" id="dlg_mu_wx" autocomplete="off" style="width:160px;"  class="easyui-textbox" />
+                </td>
+            </tr>
+		</table>  
+    </div>
+</body>
+</html>

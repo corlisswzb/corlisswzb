@@ -1,0 +1,475 @@
+﻿*{
+    font-size:12px;
+}
+
+.custom_bg{
+    background-color: #daeef5;
+    /* default e4efff */ 
+    overflow:hidden;
+}
+
+.tab_from{
+    width:100%;
+    table-layout:fixed;
+    border-spacing:0px;
+    border-collapse:separate;
+}
+.tab_from td {
+    height:32px; 
+}
+
+.tab_from td.title {
+    line-height:34px;
+    text-align:right;
+    padding-right:3px;
+}
+
+.tab_from td.value {
+    height:34px;  
+}
+.tab_from td.value .combo{
+    margin:0px;
+    height:22px;
+}
+.tab_from td.row_title{
+    background-color:#daeef5;
+    text-align:center;
+    font-weight:bold;
+    height:34px;
+    line-height:34px;
+    font-size:14px;
+}
+.tab_from td.center_title{
+    
+    text-align:center;
+    font-weight:bold;
+    height:34px;
+    line-height:34px;
+    font-size:14px;
+    color:#00ff21
+}
+
+.tab_menu{
+    table-layout:fixed;
+    width:100%;
+}
+.td_input{
+    padding-left:3px;
+    padding-right:3px;
+}
+.td_input input[type=text]
+{
+    height:32px;
+    width:106px;
+    text-transform:uppercase; 
+}
+
+
+ 
+.td_title
+{
+    height:32px;
+    text-align:right;
+}
+input[type=checkbox] {
+  margin: 0;
+  padding: 0;
+  width: 16px;
+  height: 16px; 
+}
+
+td input[type=checkbox] {
+  margin-top: 2px;
+  margin-right:0px;
+  padding: 0;  
+}
+ 
+td.my_check_td input[type=checkbox] {
+  margin-top: 2px;
+  margin-right:0px;
+  padding: 0; 
+  float:left; 
+}
+
+td.my_check_td input[type=checkbox] +label {
+  margin-top: 2px;
+  margin-right:0px;
+  padding: 0; 
+  display: block;
+  line-height:16px;
+  float:left; 
+  margin-left:4px;
+  margin-right:12px;
+}
+ 
+
+input[type=text]{
+    text-transform:uppercase;
+    outline: 0;
+}
+ 
+
+.easyui-textbox{
+    height:22px;
+    margin:0;
+    padding:0 2px;
+    font-size:12px;
+    box-sizing:content-box;
+    border:1px solid #94bae7;
+    text-transform:uppercase;
+    outline: 0;
+}
+
+.easyui-textarea{
+    margin:0;
+    padding:0 2px;
+    font-size:12px;
+    box-sizing:content-box;
+    border:1px solid #94bae7;
+    outline: 0;
+}
+.combo-p .datagrid-row-selected{
+    background: #bbe7ff !important;  
+    color: #000000;
+}
+.datagrid-row-selected{
+    background: #FFF !important;  
+    color: #000000;
+}
+.datagrid-row-over,
+.datagrid-header td.datagrid-header-over {
+    background: #cddbef !important; /*调整优先级,否则会被自定义rowStyler覆盖*/
+    color: #ff0000;
+    cursor: default;
+}
+
+.tab_std{
+    width:100%;
+    table-layout:fixed;
+}
+.tab_std td {
+    
+}
+
+.tab_std td.title { 
+    text-align:right;
+    padding-right:3px;
+    min-width:54px;
+}
+
+.tab_std td.value {
+   
+}
+.tab_std td.value label{  
+    float:left; 
+}
+.tab_std td.value input[type=checkbox]{  
+    float:left;
+    margin-left:2px;
+    margin-right:15px;
+}
+.tab_std td.value .combo{
+    margin:0px; 
+}
+.tab_std td.row_title{
+    background-color:#ffd800;
+    text-align:center;
+    font-weight:bold;
+    height:28px;
+    line-height:28px;
+    font-size:14px;
+}
+.tab_std td.value_break{ 
+    word-break:normal; 
+    width:auto; 
+    display:block; 
+    white-space:pre-wrap;
+    word-wrap : break-word ;
+    overflow: hidden ; 
+}
+.tab_std td.value span.tab_span{ 
+    word-break:normal; 
+    width:auto; 
+    display:block; 
+    white-space:pre-wrap;
+    word-wrap : break-word ;
+    overflow: hidden ;
+    padding: 2px 4px;
+    border:solid 1px #94bae7;
+    min-height:16px;
+}
+
+
+
+
+.tab_flow{
+    width:100%;
+    table-layout:fixed;
+    border-collapse:collapse;
+}
+.tab_flow td {
+    border:solid 1px #e6e6e6;
+}
+
+.tab_flow td.title { 
+    text-align:right;
+    padding-right:3px;
+    min-width:54px;
+}
+
+.tab_flow td.value {
+    word-break:normal; 
+    width:auto;  
+    white-space:pre-wrap;
+    word-wrap : break-word ;
+    overflow: hidden ; 
+    height:22px;
+    padding:2px 4px;
+}
+.tab_flow td.value .combo{
+    margin:0px; 
+}
+.tab_flow td.row_title{
+    background-color:#ffd800;
+    text-align:center;
+    font-weight:bold;
+    height:28px;
+    line-height:28px;
+    font-size:14px;
+}
+ 
+.dv_oprate{
+    height:3px;
+    background-color:#c2d9f8
+}
+
+a.table_link{
+    text-decoration:none;
+    color:#000;
+}
+
+a:hover.table_link{
+    text-decoration:none;
+    color:#f56722;
+}
+
+.ipt_must{
+    color:red;
+}
+
+.i_must{
+    color:red;  
+    font-size:12px; 
+    vertical-align:middle;
+    padding-right:7px; 
+}
+
+.span_title_alert{
+    color:#f56722;
+}
+
+.tab_print
+{
+    width:100%;
+    box-sizing:border-box; 
+    table-layout:fixed; 
+    font-size:12px;
+}
+.tab_print tbody td{
+    border:1px solid #555;
+}
+
+.tab_print .title{
+      
+    padding:4px; 
+}
+
+.tab_print .title2{
+    text-align:center; 
+    padding:4px; 
+}
+.tab_print .value{
+    padding:4px;  
+    word-wrap:break-word;
+}
+.tab_print .cvalue{
+    height:24px;
+    padding:4px;  
+    word-wrap:break-word;
+    text-align:left;
+    vertical-align:top;
+}
+
+.tab_report thead td{
+    text-align:center;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.tab_report .top_title{
+    font-size:28px;
+    line-height:34px;
+}
+.tab_report tbody td{
+    text-align:center;
+}
+
+.tab_report .title_of_rec_or_pay{
+    height:34px;
+    line-height:34px;
+    font-size:14px;
+    font-weight:bold;
+}
+.tab_report .part_of_rec{
+    background-color:#fa8ebe;
+    color:black;
+}
+.tab_report .part_of_pay{
+    background-color:#8efa91;
+    color:white;
+}
+.tab_report .foot_of_rec{
+    color:#fa8ebe;
+    font-size:14px;
+    font-weight:bold;
+    height:28px;
+    line-height:28px;
+}
+.tab_report .foot_of_pay{
+    color:#8efa91;
+    font-size:14px;
+    font-weight:bold;
+    height:28px;
+    line-height:28px;
+}
+
+.right_user_info{
+    float:right;
+    width:240px;
+    height:23px; 
+    padding-top:14px;
+    margin-right:18px;
+    color:#444;
+}
+
+.right_user_info div{
+    height:23px;
+    line-height:23px;
+}
+
+.right_user_info a,.right_user_info a:link,.right_user_info   a:visited{
+  text-decoration:none;   
+  color:#444;
+}
+.msg_tips{
+    color:red;
+}
+ 
+.overflow_hidden{
+    overflow:hidden;
+}
+
+table.mycustom_table{
+    width:100%;
+    table-layout:fixed;
+    border-spacing:0px;
+    border-collapse:separate;
+    padding-bottom:8px;
+}
+table.mycustom_table td{ 
+    border:solid 1px #e9e9e9;
+    text-align:center;
+    padding-top:4px;
+    padding-bottom:4px;
+}
+table.mycustom_table tr.title td{
+    background:#f4f4f4;
+    border:solid 1px #e9e9e9;
+    font-weight:bold;
+    text-align:center;
+    vertical-align:middle;
+    font-size:14px;
+    padding-top:4px;
+    padding-bottom:4px;
+}
+
+.dv_tips{
+    margin-top:8px;
+    text-align:center;
+    color:#fb905c;
+    font-size:12px;
+    margin-bottom:8px;
+}
+
+.system_name{
+    margin-left:12px;
+    line-height:28px;
+    float:left;
+}
+.copyright_name{
+    margin-right:12px;
+    line-height:28px;
+    float:right;
+}
+.master_top_left_title{
+    color:#4b65f1;
+    line-height:40px;
+    margin-left:20px;
+}
+.master_top_user_img{
+    width:36px;
+    height:36px;
+}
+
+.tab_booking_note{
+    width:910px; 
+    border:solid 1px #000;
+    border-collapse:collapse;
+}
+.tab_booking_note td{
+    border:solid 1px #000; 
+}
+
+.tab_booking_note td .easyui-textarea{
+    width:98%;
+    border:none;
+    height:100%;
+}
+
+.tab_booking_note td.title{ 
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left:8px;
+    text-align:left;
+    font-weight:bold;
+}
+.tab_booking_note td .easyui-textbox{ 
+    width:98%;
+    border:none;
+}
+.tab_booking_note td .combo{
+    border:none;
+}
+.combobox-item{
+    height:22px;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+.combobox-item .left{
+    float:left;
+    width:28%;
+}
+.combobox-item .right{
+    float:right;
+    width:68%;
+    padding-left:4px;
+    padding-right:4px;
+    border-left:solid 1px #999;
+}
+
+ .datagrid-filter-icon {
+  padding: 0 13px 0 0;
+  background: url('../Images/filter.png') no-repeat 0px center;
+  display:block;
+  float:left;
+}

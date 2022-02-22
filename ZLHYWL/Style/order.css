@@ -1,0 +1,213 @@
+﻿body {
+}
+
+
+ ul.ul_ss_menu {
+    margin: 0px;
+    padding: 0;
+    float: none; 
+    overflow :auto; 
+}
+
+ul.ul_ss_menu li.li_ss_menuitem {
+    margin: 0px;
+    padding: 0px;
+    height: 32px;
+    line-height: 32px;
+    text-align: left;
+    border-bottom: solid 1px #ddd;
+}
+
+ul.ul_ss_menu li.li_ss_menuitem a,
+ul.ul_ss_menu li.li_ss_menuitem a:hover,
+ul.ul_ss_menu li.li_ss_menuitem a:visited,
+ul.ul_ss_menu li.li_ss_menuitem a:link {
+    text-decoration: none;
+    color: #333;
+    font-size: 9px;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ul.ul_ss_menu li.li_ss_menuitem a:hover {
+    background-color: #ffc6a1;
+}
+
+ul.ul_lditem {
+    margin: 0px;
+    padding: 0;
+    float: none; 
+    overflow :auto; 
+}
+
+ul.ul_lditem li.li_item {
+        text-decoration: none;
+        color: #333;
+        margin: 0px;
+        padding: 0px 0px 0px 10px;
+        height: 25px;
+        line-height: 25px;
+        text-align: left;
+        /*background-color: #f3f3f3;*/
+        border-bottom: solid 1px #ddd;
+}
+
+ul.ul_lditem li.li_item:hover {
+    cursor: pointer;
+    background-color: #B3DFDA;
+}
+
+.dv_od_lock_tips{
+    padding:12px;
+    background-color:#daeef5;
+    line-height:18px;
+    margin-bottom:12px;
+}
+
+.li_item_selected {
+    border-left:6px solid red;
+    background-color: #a1dfff;
+}
+
+.li_ss_menuitem_selected {
+    background-color: #a1dfff;
+    border-left:6px solid red;
+}
+
+/**合同 标准、过期 标签 */
+.span_std_title{
+    color: #1feb30;
+}
+.span_validate_title{
+    color:#ff0000;
+}
+
+.cls_rec{
+    background-color:#ff6a00;
+    color:#fff;
+}
+.cls_pay{
+    background-color:#00ff21;
+}
+
+.dv_edit_order_menu_tab_back{
+    float:left;
+    margin-top:7px;
+}
+
+.dv_edit_order_menu_tab_right_title{
+    float:right;
+    padding-right:4px;
+    margin-top:7px;
+}
+
+.dv_edit_order_menu_tab{
+    float:left;
+    height:26px;
+    padding-left:6px;
+    padding-right:6px;
+    border:solid 1px #95b8e7; 
+    border-radius:3px;
+    line-height:26px;
+    margin-left:12px; 
+    margin-top:7px;
+}
+
+
+.dv_edit_order_menu_tab:hover{
+     background:#eaf2ff;
+}
+
+.dv_edit_order_menu_tab_focus{
+    background:#f6f9ff;
+}
+
+.ap_flow_details_tim{
+    padding:6px;
+    border-top:solid 1px #e6eef8;
+    border-top-left-radius:4px;
+    border-left:solid 1px #e6eef8;
+    background-color:#e2e2e2;
+    text-align:center;
+}
+.ap_flow_details_nam{
+    border-top:solid 1px #e6eef8; 
+    text-align:left;
+    padding-left:6px;
+}
+.ap_flow_details_advice {
+    border-top:solid 1px #e6eef8;
+    border-top-right-radius:4px;
+    border-right:solid 1px #e6eef8;
+    text-align:right;
+    padding-right:6px;
+    background-color:#ff9250;
+    color:#fff;
+}
+.ap_flow_details_desc{
+    border-top:solid 1px #e6eef8; 
+    text-align:right;
+    background:#e9e9e9;
+    padding-right:6px;
+}
+
+.ap_flow_details_advice_left{
+    padding:6px;
+    border-top:solid 1px #e6eef8; 
+    border-bottom:solid 1px #e6eef8; 
+    border-left:solid 1px #e6eef8; 
+    border-bottom-left-radius:4px;
+    text-align:center;
+    vertical-align:top;
+    background-color:#e2e2e2;
+}
+
+.ap_flow_details_context_right{
+    border-top:solid 1px #e6eef8; 
+    border-bottom:solid 1px #e6eef8; 
+    border-right:solid 1px #e6eef8; 
+    border-bottom-right-radius:4px; 
+    padding-right:6px;
+}
+
+.cls_group_order_fee td{
+    line-height:26px;
+    padding-left:4px;
+    padding-right:4px;
+    
+}
+.cls_group_order_fee .cls_rec_title{
+    background:#ff0000;
+    color:#FFF;
+}
+
+.cls_group_order_fee .cls_pay_title{
+    background:#00e10b;
+    color:#FFF;
+}
+
+.cls_group_order_fee .cls_profit_title{
+    background:#fd60a6;
+    color:#fff;
+}
+.cls_group_order_fee .cls_rec_value{
+    font-weight:bold;
+    color:#ff0000; 
+}
+.cls_group_order_fee .cls_pay_value{
+    font-weight:bold;
+    color:#00e10b; 
+}
+.cls_group_order_fee .cls_profit_value{
+    font-weight:bold;
+    color:#fd60a6; 
+}
+.cls_group_order_fee .cls_total_title{
+    background:#0018ff;
+    color:#FFF;
+}
+.cls_group_order_fee .cls_total_value{
+    font-weight:bold;;
+    color:#0018ff;
+}
