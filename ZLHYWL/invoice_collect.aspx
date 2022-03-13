@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="invoice_collect.aspx.cs" Inherits="SDZL.invoice_collect" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="invoice_collect.aspx.cs" Inherits="ZLHYWL.invoice_collect" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="Js/invoice_collect.js"></script>
     <!--datagrid提示-->

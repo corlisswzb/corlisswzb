@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace SDZL
+namespace ZLHYWL
 {
     public partial class template_ca_pay_for_bus_of_focus : System.Web.UI.Page
     {

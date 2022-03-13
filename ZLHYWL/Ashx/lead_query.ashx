@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" CodeBehind="lead_query.ashx.cs" Class="SDZL.Ashx.lead_query" %>
+﻿<%@ WebHandler Language="C#" CodeBehind="lead_query.ashx.cs" Class="ZLHYWL.Ashx.lead_query" %>

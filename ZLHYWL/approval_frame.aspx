@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="approval_frame.aspx.cs" Inherits="SDZL.approval_frame" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="approval_frame.aspx.cs" Inherits="ZLHYWL.approval_frame" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="Js/approval_frame.js"></script>
 </asp:Content>

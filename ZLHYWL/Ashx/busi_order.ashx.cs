@@ -18,7 +18,7 @@ using NPOI.SS.Util;
 using System.Drawing;
 using BLL.lead_query;
 
-namespace SDZL.Ashx
+namespace ZLHYWL.Ashx
 {
     /// <summary>
     /// busi_order 的摘要说明

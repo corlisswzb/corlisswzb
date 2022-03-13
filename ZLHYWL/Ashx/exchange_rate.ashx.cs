@@ -6,7 +6,7 @@ using BLL.fee;
 using BLL.commone;
 using System;
 
-namespace SDZL.Ashx
+namespace ZLHYWL.Ashx
 {
     /// <summary>
     /// exchange_rate 的摘要说明

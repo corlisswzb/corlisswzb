@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace SDZL
+namespace ZLHYWL
 {
     public partial class my_approval_of_pay_checkaccount : System.Web.UI.Page
     {

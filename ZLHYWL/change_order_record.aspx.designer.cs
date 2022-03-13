@@ -7,7 +7,7 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace SDZL {
+namespace ZLHYWL {
     
     
     public partial class change_order_record {

@@ -7,7 +7,7 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace SDZL {
+namespace ZLHYWL {
     
     
     public partial class template_print_pay_amc_head {

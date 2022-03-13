@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="ship_voyage.aspx.cs" Inherits="SDZL.ship_voyage" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="ship_voyage.aspx.cs" Inherits="ZLHYWL.ship_voyage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Style/checkaccount.css" rel="stylesheet" />
     <link href="Style/order.css" rel="stylesheet" />

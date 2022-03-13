@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="my_approval_of_order.aspx.cs" Inherits="SDZL.my_approval_of_order" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="my_approval_of_order.aspx.cs" Inherits="ZLHYWL.my_approval_of_order" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="Js/my_approval_of_order.js"></script>
 </asp:Content>

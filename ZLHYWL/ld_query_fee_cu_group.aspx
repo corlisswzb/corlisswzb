@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="ld_query_fee_cu_group.aspx.cs" Inherits="SDZL.ld_query_fee_cu_group" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="ld_query_fee_cu_group.aspx.cs" Inherits="ZLHYWL.ld_query_fee_cu_group" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Style/checkaccount.css" rel="stylesheet" />
     <script src="Js/ld_query_fee_cu_group.js"></script>

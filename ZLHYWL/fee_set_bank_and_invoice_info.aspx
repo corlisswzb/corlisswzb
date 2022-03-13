@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="fee_set_bank_and_invoice_info.aspx.cs" Inherits="SDZL.fee_set_bank_and_invoice_info" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="fee_set_bank_and_invoice_info.aspx.cs" Inherits="ZLHYWL.fee_set_bank_and_invoice_info" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="Js/fee_set_bank_and_invoice_info.js"></script>
 </asp:Content>

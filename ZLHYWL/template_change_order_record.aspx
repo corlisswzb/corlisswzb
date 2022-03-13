@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_change_order_record.aspx.cs" Inherits="SDZL.template_change_order_record" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_change_order_record.aspx.cs" Inherits="ZLHYWL.template_change_order_record" %>
 
 <style>
         .status_add{

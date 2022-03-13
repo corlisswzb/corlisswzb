@@ -7,7 +7,7 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace SDZL {
+namespace ZLHYWL {
     
     
     public partial class templage_route_bind_ship_voyage {

@@ -7,7 +7,7 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace SDZL {
+namespace ZLHYWL {
     
     
     public partial class my_approval_of_hedge_off_accounts {

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Web;
 using System.Web.SessionState;
 
-namespace SDZL.Ashx
+namespace ZLHYWL.Ashx
 {
     /// <summary>
     /// usermgr 的摘要说明

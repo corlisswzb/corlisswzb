@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace SDZL
+namespace ZLHYWL
 {
     public partial class ld_query_order_typ_group : System.Web.UI.Page
     {

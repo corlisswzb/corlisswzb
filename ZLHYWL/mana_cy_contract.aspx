@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="mana_cy_contract.aspx.cs" Inherits="SDZL.mana_cy_contract" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="mana_cy_contract.aspx.cs" Inherits="ZLHYWL.mana_cy_contract" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Style/checkaccount.css" rel="stylesheet" />
     <link href="Style/cy_fee.css" rel="stylesheet" />

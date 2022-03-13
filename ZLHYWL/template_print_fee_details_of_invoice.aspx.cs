@@ -13,7 +13,7 @@ using System.Data;
 using System.Text;
 using BLL.commone;
 
-namespace SDZL
+namespace ZLHYWL
 {
     public partial class template_print_fee_details_of_invoice : System.Web.UI.Page
     {

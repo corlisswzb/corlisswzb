@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="bus_order_fee_details.aspx.cs" Inherits="SDZL.bus_order_fee_details" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="bus_order_fee_details.aspx.cs" Inherits="ZLHYWL.bus_order_fee_details" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Style/checkaccount.css" rel="stylesheet" />
     <script src="Js/bus_order_fee.js"></script>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="my_pay_list_of_order.aspx.cs" Inherits="SDZL.my_pay_list_of_order" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="my_pay_list_of_order.aspx.cs" Inherits="ZLHYWL.my_pay_list_of_order" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Style/checkaccount.css" rel="stylesheet" />
     <script src="Js/operation_create_ca.js"></script>

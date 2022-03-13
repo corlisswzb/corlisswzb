@@ -7,7 +7,7 @@ using BLL.schema_cto;
 using BLL.commone;
 
 
-namespace SDZL.Ashx
+namespace ZLHYWL.Ashx
 {
     /// <summary>
     /// schema_cto 的摘要说明

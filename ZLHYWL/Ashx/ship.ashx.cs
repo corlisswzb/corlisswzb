@@ -20,7 +20,7 @@ using System.Text.RegularExpressions;
 using System.Text;
 
 
-namespace SDZL.Ashx
+namespace ZLHYWL.Ashx
 {
     /// <summary>
     /// ship 的摘要说明

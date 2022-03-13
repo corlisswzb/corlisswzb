@@ -11,7 +11,7 @@ using System;
 using BLL.commone;
 using System.Collections.Generic;
 
-namespace SDZL
+namespace ZLHYWL
 {
     public partial class template_print_fee_details_of_write_off : System.Web.UI.Page
     {

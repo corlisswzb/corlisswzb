@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" CodeBehind="exchange_rate.ashx.cs" Class="SDZL.Ashx.exchange_rate" %>
+﻿<%@ WebHandler Language="C#" CodeBehind="exchange_rate.ashx.cs" Class="ZLHYWL.Ashx.exchange_rate" %>

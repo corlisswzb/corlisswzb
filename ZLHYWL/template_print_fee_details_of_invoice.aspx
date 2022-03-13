@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_print_fee_details_of_invoice.aspx.cs" Inherits="SDZL.template_print_fee_details_of_invoice" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_print_fee_details_of_invoice.aspx.cs" Inherits="ZLHYWL.template_print_fee_details_of_invoice" %>
 
 <link href="Script/easy-ui-v132/themes/metro-blue/easyui.css" rel="stylesheet" /> 
 <link href="Script/easy-ui-v132/themes/icon.css" rel="stylesheet" /> 

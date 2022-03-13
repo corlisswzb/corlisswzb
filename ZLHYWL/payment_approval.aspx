@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="payment_approval.aspx.cs" Inherits="SDZL.payment_approval" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="payment_approval.aspx.cs" Inherits="ZLHYWL.payment_approval" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="Js/payment_approval.js"></script>
 </asp:Content>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_amc_pay_for_bus_of_focus.aspx.cs" Inherits="SDZL.template_amc_pay_for_bus_of_focus" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_amc_pay_for_bus_of_focus.aspx.cs" Inherits="ZLHYWL.template_amc_pay_for_bus_of_focus" %>
 
 
 <link href="Script/easy-ui-v132/themes/metro-blue/easyui.css" rel="stylesheet" /> 

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="ld_query_order_group.aspx.cs" Inherits="SDZL.ld_query_order_group" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="ld_query_order_group.aspx.cs" Inherits="ZLHYWL.ld_query_order_group" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="Js/ld_query_order_group.js"></script>
 </asp:Content>

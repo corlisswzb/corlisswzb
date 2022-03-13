@@ -1,12 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-<<<<<<< HEAD:ZLHYWLsys_gyhwl.sln
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
-=======
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
->>>>>>> b269db51467f7c57d9cd367288ad2ed8092ace6d:SDZLsys_gyhwl.sln
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{F88FA24D-2963-4BCE-A3AA-DFC72A851460}"
 EndProject
@@ -18,25 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAL", "CAL\CAL.csproj", "{E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BASECONFIG", "BASECONFIG\BASECONFIG.csproj", "{99D845FB-1473-4678-BEA2-7279AD0FDEBD}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ZLHYWL", "ZLHYWL\", "{2D157A88-F2D9-4FBB-9128-BEE0901FEF8A}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_24369"
-		Debug.AspNetCompiler.PhysicalPath = "ZLHYWL\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_24369\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_24369"
-		Release.AspNetCompiler.PhysicalPath = "ZLHYWL\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_24369\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "24369"
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZLHYWL", "ZLHYWL\ZLHYWL.csproj", "{3E60619D-D6E9-4792-A24F-D128336CC142}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -64,19 +41,15 @@ Global
 		{99D845FB-1473-4678-BEA2-7279AD0FDEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99D845FB-1473-4678-BEA2-7279AD0FDEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99D845FB-1473-4678-BEA2-7279AD0FDEBD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D157A88-F2D9-4FBB-9128-BEE0901FEF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D157A88-F2D9-4FBB-9128-BEE0901FEF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D157A88-F2D9-4FBB-9128-BEE0901FEF8A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D157A88-F2D9-4FBB-9128-BEE0901FEF8A}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3E60619D-D6E9-4792-A24F-D128336CC142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E60619D-D6E9-4792-A24F-D128336CC142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E60619D-D6E9-4792-A24F-D128336CC142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E60619D-D6E9-4792-A24F-D128336CC142}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-<<<<<<< HEAD:ZLHYWLsys_gyhwl.sln
-		SolutionGuid = {5D6B9163-F620-4C8B-A838-CEAD9BB2747B}
-=======
 		SolutionGuid = {404B28B2-1FF3-421F-8032-1CD0315ECB40}
->>>>>>> b269db51467f7c57d9cd367288ad2ed8092ace6d:SDZLsys_gyhwl.sln
 	EndGlobalSection
 EndGlobal

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="fee_rec_page.aspx.cs" Inherits="SDZL.fee_rec_page" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="fee_rec_page.aspx.cs" Inherits="ZLHYWL.fee_rec_page" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Style/checkaccount.css" rel="stylesheet" /> 
     <script src="Js/fee_rec_list_of_order.js"></script>

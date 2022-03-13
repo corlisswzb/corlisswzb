@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="business_query.aspx.cs" Inherits="SDZL.business_query" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="business_query.aspx.cs" Inherits="ZLHYWL.business_query" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
     <script src="Js/businesss_mgr.js"></script>

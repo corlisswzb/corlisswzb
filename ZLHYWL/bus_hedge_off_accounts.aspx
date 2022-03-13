@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="bus_hedge_off_accounts.aspx.cs" Inherits="SDZL.bus_hedge_off_accounts" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="bus_hedge_off_accounts.aspx.cs" Inherits="ZLHYWL.bus_hedge_off_accounts" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Style/checkaccount.css" rel="stylesheet" />
     <script src="Js/bus_hedge_list_of_order.js"></script>

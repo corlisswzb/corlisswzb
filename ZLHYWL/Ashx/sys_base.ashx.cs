@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.SessionState;
 
-namespace SDZL.Ashx
+namespace ZLHYWL.Ashx
 {
     /// <summary>
     /// sys_base 的摘要说明

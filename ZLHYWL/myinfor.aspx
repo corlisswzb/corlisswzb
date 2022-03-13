@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="myinfor.aspx.cs" Inherits="SDZL.myinfor" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="myinfor.aspx.cs" Inherits="ZLHYWL.myinfor" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     
     <script src="Js/myinfor.js"></script>

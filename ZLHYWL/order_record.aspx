@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="order_record.aspx.cs" Inherits="SDZL.order_record" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="order_record.aspx.cs" Inherits="ZLHYWL.order_record" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Style/order.css" rel="stylesheet" />
     <link href="Style/order_transport_route.css" rel="stylesheet" />

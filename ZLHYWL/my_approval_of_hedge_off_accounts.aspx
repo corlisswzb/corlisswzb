@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="my_approval_of_hedge_off_accounts.aspx.cs" Inherits="SDZL.my_approval_of_hedge_off_accounts" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="my_approval_of_hedge_off_accounts.aspx.cs" Inherits="ZLHYWL.my_approval_of_hedge_off_accounts" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="Js/my_approval_of_hedge_off_accounts.js"></script>
 </asp:Content>

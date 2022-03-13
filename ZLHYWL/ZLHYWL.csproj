@@ -2675,6 +2675,7 @@
     <Content Include="Templates\委托集装箱导入模板2.xls" />
     <Content Include="Templates\委托集装箱导入模板3.xls" />
     <Content Include="Templates\客户水路集运模板.xlsx" />
+    <None Include="Properties\PublishProfiles\zhwlSaaSwebsys_fb.pubxml" />
     <None Include="Properties\PublishProfiles\zhwl_oa_fbsys.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

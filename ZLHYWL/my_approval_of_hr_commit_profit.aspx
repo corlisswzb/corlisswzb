@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="my_approval_of_hr_commit_profit.aspx.cs" Inherits="SDZL.my_approval_of_hr_commit_profit" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="my_approval_of_hr_commit_profit.aspx.cs" Inherits="ZLHYWL.my_approval_of_hr_commit_profit" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="Js/my_approval_of_hr_commit_profit.js"></script>
 </asp:Content>
