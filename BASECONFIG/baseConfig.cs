@@ -22,13 +22,13 @@ namespace BASECONFIG
 
         public static string Exception_From_EmailPassword
         {
-            get { return "nwzfdaeeomxwggjd"; }
+            get { return "kkgchbqwgdslhdgg"; }
         }
         //smtp服务器 例如: smtp.exmal.qq.com 
 
         public static string Exception_From_EmailSmtp
         {
-            get { return "smtp.exmal.qq.com"; }
+            get { return "smtp.qq.com"; }
         }
 
         #endregion
@@ -58,7 +58,7 @@ namespace BASECONFIG
         {
             get
             {
-                return "zhwlwebsys"; 
+                return "zhwlSaaSwebsys"; 
             }
         }
         //数据库 访问账户 
