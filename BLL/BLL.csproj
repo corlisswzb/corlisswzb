@@ -72,6 +72,7 @@
     <Compile Include="commone\listtojson.cs" />
     <Compile Include="commone\mailhelper.cs" />
     <Compile Include="commone\mylog.cs" />
+    <Compile Include="deduction_ticket\BillingServiceBusiness.cs" />
     <Compile Include="fee\bll_fee.cs" />
     <Compile Include="hr_commit_profit\bll_hr_commit_profit.cs" />
     <Compile Include="lead_query\bll_lead_query.cs" />
@@ -81,6 +82,9 @@
     <Compile Include="ship\bll_ship.cs" />
     <Compile Include="ship\cy_contract.cs" />
     <Compile Include="ship\fio_contract.cs" />
+    <Compile Include="subscribe\Program.cs" />
+    <Compile Include="subscribe\PublisherBusiness.cs" />
+    <Compile Include="subscribe\SubscriberManagerBusiness.cs" />
     <Compile Include="sys_base\base_Collections.cs" />
     <Compile Include="sys_base\base_data.cs" />
     <Compile Include="usermanager\user_mgr.cs" />
@@ -99,6 +103,13 @@
       <Project>{3d882cfc-e6b9-489f-bcbc-bcb785abd397}</Project>
       <Name>DAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ZLHYWL.Model\ZLHYWL.Models.csproj">
+      <Project>{60081c70-5918-4b25-a436-d8bd338da2cf}</Project>
+      <Name>ZLHYWL.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bll_remarks.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

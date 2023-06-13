@@ -417,7 +417,5 @@ namespace DAL.usermanager
 
         #endregion
 
-
-
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28729.10
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{F88FA24D-2963-4BCE-A3AA-DFC72A851460}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BASECONFIG", "BASECONFIG\BASECONFIG.csproj", "{99D845FB-1473-4678-BEA2-7279AD0FDEBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZLHYWL", "ZLHYWL\ZLHYWL.csproj", "{3E60619D-D6E9-4792-A24F-D128336CC142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZLHYWL.Models", "ZLHYWL.Model\ZLHYWL.Models.csproj", "{60081C70-5918-4B25-A436-D8BD338DA2CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{3E60619D-D6E9-4792-A24F-D128336CC142}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E60619D-D6E9-4792-A24F-D128336CC142}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E60619D-D6E9-4792-A24F-D128336CC142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60081C70-5918-4B25-A436-D8BD338DA2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60081C70-5918-4B25-A436-D8BD338DA2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60081C70-5918-4B25-A436-D8BD338DA2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60081C70-5918-4B25-A436-D8BD338DA2CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
