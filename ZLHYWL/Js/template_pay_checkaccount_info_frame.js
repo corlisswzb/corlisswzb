@@ -72,7 +72,7 @@ function init_tab_fee_list_of_ca() {
         selectOnCheck: true,
         checkOnSelect: true,//显示的列
         frozenColumns: [[
-            { title: '', field: 'fee_seq', rowspan: 2, width: 40, checkbox: true } 
+            { title: '', field: 'fee_seq',  width: 40, checkbox: true } 
         ]],
         columns: [[
                  { title: ' ', align: 'center', colspan: 3 }

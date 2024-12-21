@@ -81,7 +81,7 @@ function init_tab_fee_list(data) {
          
         columns: [[
              {
-                 field: 'co_status', rowspan: 2, title: '状态', width: 60, align: 'center',
+                 field: 'co_status',  title: '状态', width: 60, align: 'center',
                  formatter: function (value, row, index) {
                      if (value == 0) {
                          return "";
@@ -95,7 +95,7 @@ function init_tab_fee_list(data) {
                  }
              }
             , {
-                field: 'rec_or_pay', rowspan: 2, title: '收/付', width: 40, align: 'center',
+                field: 'rec_or_pay', title: '收/付', width: 40, align: 'center',
                 formatter: function (value, row, index) {
                     if (value == -1) {
                         return '应付';

@@ -1,6 +1,6 @@
 ﻿using SqlSugar;
 
-namespace ZLHYWL.Models.deduction_ticket
+namespace Jbfd.Models.deduction_ticket
 {
     //票
     public class TicketModel

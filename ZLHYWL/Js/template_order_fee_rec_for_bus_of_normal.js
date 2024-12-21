@@ -293,9 +293,9 @@ function init_tab_fee_list() {
         checkOnSelect: true,//显示的列
         showFooter: true,
         frozenColumns: [[
-            { title: '', field: 'fee_seq', rowspan: 2, width: 40, checkbox: true }
+            { title: '', field: 'fee_seq',  width: 40, checkbox: true }
             , {
-                field: 'fee_status_desc', rowspan: 2, title: '状态', sortable: true, width: 46,
+                field: 'fee_status_desc',  title: '状态', sortable: true, width: 46,
                 styler: function (value, row, index) {
                     if (row.fee_change_lock_flag == 1) {
                         return 'background-color:#ea60ff;color:#FFF;';
@@ -421,7 +421,7 @@ function init_tab_fee_list() {
             }
             , { field: 'ca_title', title: '所属账单', width: 148, sortable: true, }
             , {
-                field: 'od_status_desc', rowspan: 2, title: '审核状态', width: 80, sortable: true,
+                field: 'od_status_desc',  title: '审核状态', width: 80, sortable: true,
                 styler: function (value, row, index) {
                     if (row.od_status_id == 1) {
                         if (row.od_amc_status == 0) return 'background-color:#dcdcdc;color:#000;';
@@ -750,19 +750,19 @@ function init_tab_order_fee_group() {
         selectOnCheck: true,
         checkOnSelect: true,
         columns: [[
-                { field: 'fee_cu_desc', title: '结算对象', rowspan: 4, align: 'left' },
-                { field: 'cr_name', title: '币种', rowspan: 4, align: 'center' },
+                { field: 'fee_cu_desc', title: '结算对象',  align: 'left' },
+                { field: 'cr_name', title: '币种',  align: 'center' },
                 { title: '已交账情况', colspan: 13, align: 'center' },
         ], [
-                { field: 'fee_amount_of_commit', title: '小计', rowspan: 3, align: 'center' },
+                { field: 'fee_amount_of_commit', title: '小计',  align: 'center' },
                 { title: '已销账', colspan: 5, align: 'center' },
                 { title: '未销账', colspan: 7, align: 'center' },
         ], [
-                { field: 'woa_amount_of_commit', title: '小计', rowspan: 2, align: 'center' },
-                { field: 'woa_amount_of_commit_of_noneinvoice', title: '不需票', rowspan: 2, align: 'center' },
+                { field: 'woa_amount_of_commit', title: '小计',  align: 'center' },
+                { field: 'woa_amount_of_commit_of_noneinvoice', title: '不需票',  align: 'center' },
                 { title: '需票', colspan: 3, align: 'center' },
-                { field: 'unwoa_amount_of_commit', title: '小计', rowspan: 2, align: 'center' },
-                { field: 'unwoa_amount_of_commit_of_noneinvoice', title: '不需票', rowspan: 2, align: 'center' },
+                { field: 'unwoa_amount_of_commit', title: '小计',  align: 'center' },
+                { field: 'unwoa_amount_of_commit_of_noneinvoice', title: '不需票',  align: 'center' },
                 { title: '需票', colspan: 5, align: 'center' },
         ], [
                 { field: 'woa_amount_of_commit_of_invoice', title: '小计', align: 'center' },

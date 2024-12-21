@@ -198,7 +198,7 @@ function init_order_tab() {
         showFooter: true,
         frozenColumns: [[{ title: '', field: 'od_seq', width: 40, checkbox: true },
              {
-                 field: 'od_status_desc', rowspan: 2, title: '状态', width: 50, sortable: true,
+                 field: 'od_status_desc', title: '状态', width: 50, sortable: true,
                  styler: function (value, row, index) {
                      if (row.od_status_id == 1) {
                          if (row.amc_status == 0) return 'background-color:#dcdcdc;color:#000;';
@@ -212,7 +212,7 @@ function init_order_tab() {
 
              }
             , {
-                field: 'od_no', rowspan: 2, title: '业务编号', width: 90, sortable: true,
+                field: 'od_no', title: '业务编号', width: 90, sortable: true,
 
             }
             , {
@@ -714,9 +714,9 @@ function init_tab_fee_list() {
         selectOnCheck: true,
         checkOnSelect: true,//显示的列
         frozenColumns: [[
-            { title: '', field: 'fee_seq', rowspan: 2, width: 40, checkbox: true }
+            { title: '', field: 'fee_seq', width: 40, checkbox: true }
             , {
-                field: 'fee_status_desc', rowspan: 2, title: '状态', sortable: true, width: 60,
+                field: 'fee_status_desc',title: '状态', sortable: true, width: 60,
                 styler: function (value, row, index) {
                     if (row.fee_change_lock_flag == 1) {
                         return 'background-color:#ea60ff;color:#FFF;';
@@ -841,7 +841,7 @@ function init_tab_fee_list() {
             }
             , { field: 'ca_title', title: '所属账单', width: 148, sortable: true, }
             , {
-                field: 'od_status_desc', rowspan: 2, title: '审核状态', width: 80, sortable: true,
+                field: 'od_status_desc', title: '审核状态', width: 80, sortable: true,
                 styler: function (value, row, index) {
                     if (row.od_status_id == 1) {
                         if (row.od_amc_status == 0) return 'background-color:#dcdcdc;color:#000;';

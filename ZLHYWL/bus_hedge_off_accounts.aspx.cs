@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ZLHYWL
+namespace Jbfd
 {
     public partial class bus_hedge_off_accounts : System.Web.UI.Page
     {

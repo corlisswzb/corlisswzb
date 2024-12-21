@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="custom_mgr.aspx.cs" Inherits="ZLHYWL.custom_mgr" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="custom_mgr.aspx.cs" Inherits="Jbfd.custom_mgr" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="Js/custom.js"></script>

@@ -15,7 +15,8 @@ var tmp_combogrid_cu_desc = undefined;
 function load_page_fee_info() { 
     $("#tab_od_fee_group").datagrid('loadData', []);
 
-    if (cur_ed_od_seq == undefined || cur_ed_od_seq.length == 0) {
+    if (cur_ed_od_seq == undefined ||
+        cur_ed_od_seq.length == 0) {
 
     } else {
         post('../Ashx/order.ashx', {
@@ -66,13 +67,8 @@ function load_page_fee_info() {
                 $('#down_rec_menubutton').menubutton({
                     menu: '#mm_down_rec_fee',
                 });
-                 
-
-                
             } else {
-                $('#down_rec_menubutton').menubutton({
-                    menu: '#mm_down_rec_fee',
-                });
+                $('#down_rec_menubutton').hide();
             }
 
              
@@ -957,7 +953,11 @@ function init_tab_order_fee_rec() {
                         onSelect: function (index, item) {              //选中处理   
                             tmp_combogrid_cu_id = item.cu_id;
                             tmp_combogrid_cu_desc = item.cu_name;
-                            var ed = $('#tab_order_fee_rec').datagrid('getEditor', { index: cur_edit_fee_rowindex_rec, field: 'fee_cu_desc' });
+                            var ed = $('#tab_order_fee_rec').datagrid('getEditor',
+                                {
+                                    index: cur_edit_fee_rowindex_rec,
+                                    field: 'fee_cu_desc'
+                                });
                             $(ed.target).combogrid('setText', item.cu_name);
                             event.stopPropagation();
                         }

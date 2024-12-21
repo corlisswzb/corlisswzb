@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ZLHYWL
+namespace Jbfd
 {
     public partial class template_create_hr_commit_profit_frame : System.Web.UI.Page
     {

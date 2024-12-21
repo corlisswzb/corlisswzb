@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ZLHYWL
+namespace Jbfd
 {
     public partial class fee_set_month_exchange_rate : System.Web.UI.Page
     {

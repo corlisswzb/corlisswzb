@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="fee_set_month_exchange_rate.aspx.cs" Inherits="ZLHYWL.fee_set_month_exchange_rate" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="fee_set_month_exchange_rate.aspx.cs" Inherits="Jbfd.fee_set_month_exchange_rate" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="Js/fee_set_month_exchange_rate.js"></script>
 </asp:Content>

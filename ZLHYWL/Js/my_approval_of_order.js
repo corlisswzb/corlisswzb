@@ -111,7 +111,7 @@ function init_tab_amc_list() {
         emptyMsg: '无法找到相关数值',
         selectOnCheck: true,
         checkOnSelect: true,
-        frozenColumns: [[{ title: '', field: 'amc_id', rowspan: 2, width: 40, checkbox: true }]],
+        frozenColumns: [[{ title: '', field: 'amc_id',  width: 40, checkbox: true }]],
         columns: [[//显示的列
 
                 { title: '业务基本信息', colspan: 10, align: 'center' }
@@ -120,7 +120,7 @@ function init_tab_amc_list() {
                 , { title: '维护信息', colspan: 7, align: 'center' }
         ], [
                 {
-                    field: 'amc_status_desc', rowspan: 2, title: '审核状态', width: 80,
+                    field: 'amc_status_desc',  title: '审核状态', width: 80,
                     styler: function (value, row, index) {
                         if (row.amc_status == 1) {
                             if (row.is_my_point == 1) return 'background-color:#f9752e;color:#fff;';
@@ -133,7 +133,7 @@ function init_tab_amc_list() {
                     }
                 }
                 , {
-                    field: 'od_no', rowspan: 2, title: '业务编号', width: 90,
+                    field: 'od_no', title: '业务编号', width: 90,
                     styler: function (value, row, index) {
                         if (row.od_status_id == 1) {
                             return 'background-color:#4cff00;color:#000;';

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="schema_mgr.aspx.cs" Inherits="ZLHYWL.schema_mgr" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="schema_mgr.aspx.cs" Inherits="Jbfd.schema_mgr" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Style/mana_limit.css" rel="stylesheet" />
     <script src="Js/mana_schema_cto.js"></script>

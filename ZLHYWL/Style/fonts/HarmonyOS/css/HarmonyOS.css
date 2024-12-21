@@ -1,0 +1,8 @@
+﻿@font-face {
+    font-family: 'HarmonyOS';
+    src: url('../fonts/HarmonyOS_Sans_SC_Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'HarmonyOS', sans-serif;
+}

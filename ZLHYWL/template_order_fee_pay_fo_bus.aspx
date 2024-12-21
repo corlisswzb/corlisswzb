@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_order_fee_pay_fo_bus.aspx.cs" Inherits="ZLHYWL.template_order_fee_pay_fo_bus" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_order_fee_pay_fo_bus.aspx.cs" Inherits="Jbfd.template_order_fee_pay_fo_bus" %>
 
 <link href="Script/easy-ui-v132/themes/metro-blue/easyui.css" rel="stylesheet" /> 
 <link href="Script/easy-ui-v132/themes/icon.css" rel="stylesheet" /> 

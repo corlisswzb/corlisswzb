@@ -129,10 +129,10 @@ function refresh_ship_voyage() {
         emptyMsg: '无法找到相关数值',
         selectOnCheck: true,
         checkOnSelect: true,
-        frozenColumns: [[{ field: 'ship_no', rowspan: 2, title: '', rowspan: 2, checkbox: true }]],
+        frozenColumns: [[{ field: 'ship_no',  title: '',  checkbox: true }]],
         columns: [[//显示的列
                 {
-                    field: 'status_id', rowspan: 2, title: '状态', width: 70,
+                    field: 'status_id',  title: '状态', width: 70,
                     formatter: function (value, row, index) {
                         var str = '';
                         if (value == 1) {
@@ -619,7 +619,7 @@ function init_tab_ship_cntr_group() {
         emptyMsg: '无法找到相关数值',
         selectOnCheck: true,
         checkOnSelect: true,
-        frozenColumns: [[{ field: 'cntr_id', title: '', rowspan: 2, checkbox: true }]],
+        frozenColumns: [[{ field: 'cntr_id', title: '',  checkbox: true }]],
         columns: [[
                 {
                     field: 'freight_desc', title: '协议', sortable: true, width: 60,

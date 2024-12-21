@@ -7,7 +7,7 @@ using BLL.chang_order;
 using BLL.commone;
 using CAL.order_cntr;
 
-namespace ZLHYWL.Ashx
+namespace Jbfd.Ashx
 {
     /// <summary>
     /// change_order 的摘要说明

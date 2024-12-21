@@ -97,13 +97,13 @@ function load_tab_custom() {
         selectOnCheck: true,
         checkOnSelect: true,//显示的列
         columns: [[
-            { field: 'ck', rowspan: 2, title: 'ID', width: 40, sortable: true, checkbox: true },
+            { field: 'ck',  title: 'ID', width: 40, sortable: true, checkbox: true },
             { title: '基础信息', colspan: 5, },
             { title: '默认银行', colspan: 3, },
             { title: '账单投递限制', colspan: 2, },
-            { field: 'cu_create_by_name', rowspan: 2, width: 70, title: '创建人', align: 'left', sortable: true },
+            { field: 'cu_create_by_name', width: 70, title: '创建人', align: 'left', sortable: true },
             {
-                field: 'cu_create_date', rowspan: 2, width: 90, title: '创建时间', align: 'left', sortable: true,
+                field: 'cu_create_date',  width: 90, title: '创建时间', align: 'left', sortable: true,
                 formatter: function (value, row, index) {
                     return dateformat(value, true);
                 }

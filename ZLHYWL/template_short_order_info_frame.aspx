@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_short_order_info_frame.aspx.cs" Inherits="ZLHYWL.template_short_order_info_frame" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_short_order_info_frame.aspx.cs" Inherits="Jbfd.template_short_order_info_frame" %>
 
 
 <link href="Script/easy-ui-v132/themes/metro-blue/easyui.css" rel="stylesheet" /> 

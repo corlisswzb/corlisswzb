@@ -7,7 +7,7 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace ZLHYWL {
+namespace Jbfd {
     
     
     public partial class ld_query_order_fee_group {

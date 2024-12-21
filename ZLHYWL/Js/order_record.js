@@ -410,7 +410,7 @@ function init_order_tab() {
         queryParams: {
             rnd: Math.random(),
             action: 'get_order_list',
-            like_str: $.trim($('#search_like_str').val()),
+            like_str: $.trim($('#search_like_str').textbox('getText')),
             od_typ: $('#search_od_typ').combobox('getValue'),
             od_status_id: $('#search_od_status_id').combobox('getValue'),
             od_project_typ: $('#search_od_project_typ').combobox('getValue'),
@@ -424,8 +424,8 @@ function init_order_tab() {
             od_sub_way_flag: $('#search_od_sub_way_flag').is(':checked') ? 1 : 0,
             od_road_way_flag: $('#search_od_road_way_flag').is(':checked') ? 1 : 0,
             od_air_way_flag: $('#search_od_air_way_flag').is(':checked') ? 1 : 0,
-            od_route_tools_desc: $.trim($('#search_od_route_tools_desc').val()),
-            od_route_tools_no: $.trim($('#search_od_route_tools_no').val()),
+            od_route_tools_desc: $.trim($('#search_od_route_tools_desc').textbox('getText')),
+            od_route_tools_no: $.trim($('#search_od_route_tools_no').textbox('getText')),
             od_bill_nos: $.trim($('#search_od_bill_nos').val()),
             od_cntr_nos: $.trim($('#search_od_cntr_nos').val()),
             od_project_typ: $('#search_od_project_typ').combobox('getValue'),
@@ -453,7 +453,7 @@ function init_order_tab() {
         showFooter: true,
         frozenColumns: [[{ title: '', field: 'od_seq', width: 40, checkbox: true },
             {
-                field: 'od_status_desc', rowspan: 2, title: '状态', width: 50, sortable: true,
+                field: 'od_status_desc', title: '状态', width: 50, sortable: true,
                 styler: function (value, row, index) {
                     if (row.od_status_id == 1) {
                         if (row.amc_status == 0) return 'background-color:#dcdcdc;color:#000;';
@@ -467,7 +467,7 @@ function init_order_tab() {
                     
             }
             , {
-                field: 'od_no', rowspan: 2, title: '业务编号', width: 90, sortable: true,
+                field: 'od_no',  title: '业务编号', width: 90, sortable: true,
                 styler: function (value, row, index) {
                     if (row.service_flag == 1) {
                         return 'background-color:#b738e6;color:#fff;';

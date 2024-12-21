@@ -15,22 +15,22 @@ function clear_edit_order_form() {
     cur_order_collections = undefined;
     cur_edit_cntr_group_rowindex_main = undefined;
 
-    $('#ed_od_no').val('业务编号自动生成'); 
+    $('#ed_od_no').textbox('setText','业务编号自动生成'); 
     $('#ed_od_fee_dat').datebox('setValue',  basesetting.sys_time); 
-    $('#ed_od_status_id').val('新建业务');
+    $('#ed_od_status_id').textbox('setText','新建业务');
     
     $('#ed_od_delegate_cu_id').combogrid('setText', '');
     $('#ed_od_delegate_cu_id').data('cu_id', '');
 
-    $('#ed_od_delegate_relation_nam').val('');
-    $('#ed_od_delegate_relation_phone').val('');
-    $('#ed_od_delegate_relation_fax').val(''); 
+    $('#ed_od_delegate_relation_nam').textbox('setText', '');
+    $('#ed_od_delegate_relation_phone').textbox('setText', '');
+    $('#ed_od_delegate_relation_fax').textbox('setText', ''); 
     $('#ed_od_cargo_agent_cu_id').combogrid('setText', '');
     $('#ed_od_cargo_agent_cu_id').data('cu_id','');
 
-    $('#ed_od_cargo_agent_relation_nam').val('');
-    $('#ed_od_cargo_agent_relation_phone').val('');
-    $('#ed_od_cargo_agent_relation_fax').val('');
+    $('#ed_od_cargo_agent_relation_nam').textbox('setText', '');
+    $('#ed_od_cargo_agent_relation_phone').textbox('setText', '');
+    $('#ed_od_cargo_agent_relation_fax').textbox('setText', '');
 
     $('#ed_od_typ').combobox('setValue', ''); 
     $('#ed_od_project_typ').combobox('setValue', '');
@@ -45,7 +45,7 @@ function clear_edit_order_form() {
     $('#ed_od_end_place_id').combogrid('setText', '');
 
     $('#ed_od_service_id').combobox('setValue', ''); 
-    $('#ed_od_operation_id').val('');
+    $('#ed_od_operation_id').textbox('setText','');
     $('#ed_od_sales_id').combobox('setValue', '');
 
     $('#ed_od_record_by_nam').html('');
@@ -67,14 +67,14 @@ function clear_edit_order_form() {
     $('#ed_od_cargo_typ').combogrid('setText', '');
     $('#ed_od_cargo_typ').data('pr_id', '');
 
-    $('#ed_od_cargo_weight').val('0');
-    $('#ed_od_cargo_number').val('0');
+    $('#ed_od_cargo_weight').textbox('setText', '0');
+    $('#ed_od_cargo_number').textbox('setText', '0');
     $('#ed_od_cargo_packing').combobox('setValue', '');
-    $('#ed_od_cargo_bluk').val('0');
+    $('#ed_od_cargo_bluk').textbox('setText', '0');
     $('#ed_od_take_cargo_info').val('');
     $('#ed_od_delivery_cargo_info').val('');
-    $('#ed_od_po_no').val('');
-    $('#ed_od_so_no').val('');
+    $('#ed_od_po_no').textbox('setText', '');
+    $('#ed_od_so_no').textbox('setText', '');
     $('#ed_od_main_bill_no').val('');
     $('#ed_od_sub_bill_no').val('');
 
@@ -84,7 +84,7 @@ function clear_edit_order_form() {
     $('#ed_od_carriage_typ').combobox('setValue', '');
 
     $('#ed_od_stuffing_container_typ').combobox('setValue', '');
-    $('#ed_od_stuffing_container_place').val('');
+    $('#ed_od_stuffing_container_place').textbox('setText','');
     $('#ed_od_entry_tim_of_stuffing').datebox('setValue', '');
     $('#ed_od_out_tim_of_stuffing').datebox('setValue', '');
     $('#ed_order_cntr_search_like').val('');
@@ -125,20 +125,20 @@ function load_order_base_and_cargo_info(od_seq) {
 
             var cur_order = cur_order_collections.order_base_info_and_cargo_info[0];
 
-            $('#ed_od_no').val(cur_order.od_no);
+            $('#ed_od_no').textbox('setText',cur_order.od_no);
             $('#ed_od_fee_dat').datebox('setValue', dateformat(cur_order.od_fee_dat, true));
 
-            $('#ed_od_status_id').val(cur_order.od_status_desc);
+            $('#ed_od_status_id').textbox('setText',cur_order.od_status_desc);
             $('#ed_od_delegate_cu_id').data('cu_id', cur_order.od_delegate_cu_id);
             $('#ed_od_delegate_cu_id').combogrid('setText', cur_order.od_delegate_cu_desc);
-            $('#ed_od_delegate_relation_nam').val(cur_order.od_delegate_relation_nam);
-            $('#ed_od_delegate_relation_phone').val(cur_order.od_delegate_relation_phone);
-            $('#ed_od_delegate_relation_fax').val(cur_order.od_delegate_relation_fax);
+            $('#ed_od_delegate_relation_nam').textbox('setText', cur_order.od_delegate_relation_nam);
+            $('#ed_od_delegate_relation_phone').textbox('setText', cur_order.od_delegate_relation_phone);
+            $('#ed_od_delegate_relation_fax').textbox('setText', cur_order.od_delegate_relation_fax);
             $('#ed_od_cargo_agent_cu_id').data('cu_id', cur_order.od_cargo_agent_cu_id);
             $('#ed_od_cargo_agent_cu_id').combogrid('setText', cur_order.od_cargo_agent_cu_desc);
-            $('#ed_od_cargo_agent_relation_nam').val(cur_order.od_cargo_agent_relation_nam);
-            $('#ed_od_cargo_agent_relation_phone').val(cur_order.od_cargo_agent_relation_phone);
-            $('#ed_od_cargo_agent_relation_fax').val(cur_order.od_cargo_agent_relation_fax);
+            $('#ed_od_cargo_agent_relation_nam').textbox('setText', cur_order.od_cargo_agent_relation_nam);
+            $('#ed_od_cargo_agent_relation_phone').textbox('setText', cur_order.od_cargo_agent_relation_phone);
+            $('#ed_od_cargo_agent_relation_fax').textbox('setText', cur_order.od_cargo_agent_relation_fax);
 
             $('#ed_od_typ').combobox('setValue', cur_order.od_typ);
             $('#ed_od_project_typ').combobox('setValue', cur_order.od_project_typ);
@@ -155,7 +155,7 @@ function load_order_base_and_cargo_info(od_seq) {
             $('#ed_od_end_place_id').combogrid('setText', cur_order.od_end_place_desc);
 
             $('#ed_od_service_id').combobox('setValue', cur_order.od_service_id);
-            $('#ed_od_operation_id').val(cur_order.od_operation_nam);
+            $('#ed_od_operation_id').textbox('setText', cur_order.od_operation_nam);
             $('#ed_od_sales_id').combobox('setValue', cur_order.od_sales_id);
 
 
@@ -178,14 +178,14 @@ function load_order_base_and_cargo_info(od_seq) {
             //货物资料 
             $('#ed_od_cargo_typ').data('pr_id', cur_order.od_cargo_typ);
             $('#ed_od_cargo_typ').combogrid('setText', cur_order.od_cargo_typ_desc);
-            $('#ed_od_cargo_weight').val(cur_order.od_cargo_weight);
-            $('#ed_od_cargo_number').val(cur_order.od_cargo_number);
+            $('#ed_od_cargo_weight').textbox('setText',cur_order.od_cargo_weight);
+            $('#ed_od_cargo_number').textbox('setText', cur_order.od_cargo_number);
             $('#ed_od_cargo_packing').combobox('setValue', cur_order.od_cargo_packing);
-            $('#ed_od_cargo_bluk').val(cur_order.od_cargo_bluk);
+            $('#ed_od_cargo_bluk').textbox('setText', cur_order.od_cargo_bluk);
             $('#ed_od_take_cargo_info').val(cur_order.od_take_cargo_info);
             $('#ed_od_delivery_cargo_info').val(cur_order.od_delivery_cargo_info);
-            $('#ed_od_po_no').val(cur_order.od_po_no);
-            $('#ed_od_so_no').val(cur_order.od_so_no);
+            $('#ed_od_po_no').textbox('setText', cur_order.od_po_no);
+            $('#ed_od_so_no').textbox('setText', cur_order.od_so_no);
             $('#ed_od_main_bill_no').val(cur_order.od_main_bill_no);
             $('#ed_od_sub_bill_no').val(cur_order.od_sub_bill_no);
 
@@ -303,14 +303,14 @@ function save_order() {
         od_cargo_agent_cu_desc: $('#ed_od_cargo_agent_cu_id').combogrid('getText'),
         od_delegate_cu_desc: $('#ed_od_delegate_cu_id').combogrid('getText'),
 
-        od_cargo_agent_relation_nam: $('#ed_od_cargo_agent_relation_nam').val(),
-        od_cargo_agent_relation_phone: $('#ed_od_cargo_agent_relation_phone').val(),
-        od_cargo_agent_relation_fax: $('#ed_od_cargo_agent_relation_fax').val(),
-        od_delegate_relation_nam: $('#ed_od_delegate_relation_nam').val(),
-        od_delegate_relation_phone: $('#ed_od_delegate_relation_phone').val(),
-        od_delegate_relation_fax: $('#ed_od_delegate_relation_fax').val(),
+        od_cargo_agent_relation_nam: $('#ed_od_cargo_agent_relation_nam').textbox('getText'),
+        od_cargo_agent_relation_phone: $('#ed_od_cargo_agent_relation_phone').textbox('getText'),
+        od_cargo_agent_relation_fax: $('#ed_od_cargo_agent_relation_fax').textbox('getText'),
+        od_delegate_relation_nam: $('#ed_od_delegate_relation_nam').textbox('getText'),
+        od_delegate_relation_phone: $('#ed_od_delegate_relation_phone').textbox('getText'),
+        od_delegate_relation_fax: $('#ed_od_delegate_relation_fax').textbox('getText'),
         od_fee_dat: $('#ed_od_fee_dat').datebox('getValue'),
-        od_service_id: $('#ed_od_service_id').combobox('getValue'), 
+        od_service_id: $('#ed_od_service_id').combobox('getValue'),
         od_sales_id: $('#ed_od_sales_id').combobox('getValue'),
         od_service_desc: $('#ed_od_service_id').combobox('getText'),
         od_sales_desc: $('#ed_od_sales_id').combobox('getText'),
@@ -329,15 +329,15 @@ function save_order() {
 
         od_box_typ_id: $('#ed_od_box_typ_id').combobox('getValue'),
         od_cargo_typ: $('#ed_od_cargo_typ').combogrid('getText'),
-    
-        od_cargo_bluk: $('#ed_od_cargo_bluk').val(),
-        od_cargo_weight: $('#ed_od_cargo_weight').val(),
-        od_cargo_number: $('#ed_od_cargo_number').val(),
+
+        od_cargo_bluk: $('#ed_od_cargo_bluk').textbox('getText'),
+        od_cargo_weight: $('#ed_od_cargo_weight').textbox('getText'),
+        od_cargo_number: $('#ed_od_cargo_number').textbox('getText'),
         od_cargo_packing: $('#ed_od_cargo_packing').combobox('getValue'),
         od_take_cargo_info: $('#ed_od_take_cargo_info').val(),
         od_delivery_cargo_info: $('#ed_od_delivery_cargo_info').val(),
-        od_po_no: $('#ed_od_po_no').val(),
-        od_so_no: $('#ed_od_so_no').val(),
+        od_po_no: $('#ed_od_po_no').textbox('getText'),
+        od_so_no: $('#ed_od_so_no').textbox('getText'),
         od_main_bill_no: $('#ed_od_main_bill_no').val(),
         od_sub_bill_no: $('#ed_od_sub_bill_no').val(),
 
@@ -382,7 +382,7 @@ function save_order() {
         od_declare_customs_typ: $('#ed_od_declare_customs_typ').combobox('getValue'),
         od_carriage_typ: $('#ed_od_carriage_typ').combobox('getValue'),
         od_stuffing_container_typ: $('#ed_od_stuffing_container_typ').combobox('getValue'),
-        od_stuffing_container_place: $('#ed_od_stuffing_container_place').val(),
+        od_stuffing_container_place: $('#ed_od_stuffing_container_place').textbox('getText'),
         od_entry_tim_of_stuffing: $('#ed_od_entry_tim_of_stuffing').datebox('getValue'),
         od_out_tim_of_stuffing: $('#ed_od_out_tim_of_stuffing').datebox('getValue'),
 
@@ -504,12 +504,12 @@ function issame_order_base() {
         od_typ: $('#ed_od_typ').combobox('getValue'),
         od_cargo_agent_cu_id: $('#ed_od_cargo_agent_cu_id').data('cu_id'),
         od_delegate_cu_id: $('#ed_od_delegate_cu_id').data('cu_id'), 
-        od_cargo_agent_relation_nam: $('#ed_od_cargo_agent_relation_nam').val(),
-        od_cargo_agent_relation_phone: $('#ed_od_cargo_agent_relation_phone').val(),
-        od_cargo_agent_relation_fax: $('#ed_od_cargo_agent_relation_fax').val(),
-        od_delegate_relation_nam: $('#ed_od_delegate_relation_nam').val(),
-        od_delegate_relation_phone: $('#ed_od_delegate_relation_phone').val(),
-        od_delegate_relation_fax: $('#ed_od_delegate_relation_fax').val(),
+        od_cargo_agent_relation_nam: $('#ed_od_cargo_agent_relation_nam').textbox('getText'),
+        od_cargo_agent_relation_phone: $('#ed_od_cargo_agent_relation_phone').textbox('getText'),
+        od_cargo_agent_relation_fax: $('#ed_od_cargo_agent_relation_fax').textbox('getText'),
+        od_delegate_relation_nam: $('#ed_od_delegate_relation_nam').textbox('getText'),
+        od_delegate_relation_phone: $('#ed_od_delegate_relation_phone').textbox('getText'),
+        od_delegate_relation_fax: $('#ed_od_delegate_relation_fax').textbox('getText'),
         od_fee_dat: $('#ed_od_fee_dat').datebox('getValue'),
         od_service_id: $('#ed_od_service_id').combobox('getValue'),
         od_sales_id: $('#ed_od_sales_id').combobox('getValue'), 
@@ -522,14 +522,14 @@ function issame_order_base() {
         od_i_e_id: $('#ed_od_i_e_id').combobox('getValue'), 
         od_box_typ_id: $('#ed_od_box_typ_id').combobox('getValue'),
         od_cargo_typ: $('#ed_od_cargo_typ').combogrid('getText'), 
-        od_cargo_bluk: $('#ed_od_cargo_bluk').val(),
-        od_cargo_weight: $('#ed_od_cargo_weight').val(),
-        od_cargo_number: $('#ed_od_cargo_number').val(),
+        od_cargo_bluk: $('#ed_od_cargo_bluk').textbox('getText'),
+        od_cargo_weight: $('#ed_od_cargo_weight').textbox('getText'),
+        od_cargo_number: $('#ed_od_cargo_number').textbox('getText'),
         od_cargo_packing: $('#ed_od_cargo_packing').combobox('getValue'),
         od_take_cargo_info: $('#ed_od_take_cargo_info').val(),
         od_delivery_cargo_info: $('#ed_od_delivery_cargo_info').val(),
-        od_po_no: $('#ed_od_po_no').val(),
-        od_so_no: $('#ed_od_so_no').val(),
+        od_po_no: $('#ed_od_po_no').textbox('getText'),
+        od_so_no: $('#ed_od_so_no').textbox('getText'),
         od_main_bill_no: $('#ed_od_main_bill_no').val(),
         od_sub_bill_no: $('#ed_od_sub_bill_no').val(),
         bk_commissioned_id: $('#ed_od_bk_commissioned_id').data('cu_id'), 
@@ -566,7 +566,7 @@ function issame_order_base() {
         od_declare_customs_typ: $('#ed_od_declare_customs_typ').combobox('getValue'),
         od_carriage_typ: $('#ed_od_carriage_typ').combobox('getValue'),
         od_stuffing_container_typ: $('#ed_od_stuffing_container_typ').combobox('getValue'),
-        od_stuffing_container_place: $('#ed_od_stuffing_container_place').val(),
+        od_stuffing_container_place: $('#ed_od_stuffing_container_place').textbox('getText'),
         od_entry_tim_of_stuffing: $('#ed_od_entry_tim_of_stuffing').datebox('getValue'),
         od_out_tim_of_stuffing: $('#ed_od_out_tim_of_stuffing').datebox('getValue'), 
 
@@ -1392,8 +1392,8 @@ function insert_order_by_upload_order_file(that, typedata, baseurl) {
                 $('#ed_od_main_bill_no').val(data.od_main_bill_no);
                 $('#ed_od_delivery_cargo_info').val(data.od_delivery_cargo_info);
                 $('#ed_od_take_cargo_info').val(data.od_take_cargo_info);
-                $('#ed_od_delegate_relation_nam').val(data.od_delegate_relation_nam);
-                $('#ed_od_delegate_relation_phone').val(data.od_delegate_relation_phone);
+                $('#ed_od_delegate_relation_nam').textbox('setText', data.od_delegate_relation_nam);
+                $('#ed_od_delegate_relation_phone').textbox('setText', data.od_delegate_relation_phone);
 
                 $("#tab_order_cntr_group").datagrid('loadData', { total: data.order_cntr_group.length, rows: data.order_cntr_group });
                 $('#ed_od_typ').combobox('setValue', data.order_typ);
@@ -1909,7 +1909,7 @@ function init_tab_win_order() {
                 , { title: '维护信息', colspan: 3, align: 'center' }
         ], [
                 {
-                    field: 'od_no', rowspan: 2, title: '业务编号', width: 90, sortable: true,
+                    field: 'od_no', title: '业务编号', width: 90, sortable: true,
 
                 }
                 , {

@@ -1190,9 +1190,9 @@ function init_tab_order_cntr() {
         emptyMsg: '无法找到相关数值',
         selectOnCheck: true,
         checkOnSelect: true,
-        frozenColumns: [[{ title: '', field: 'cntr_id', rowspan: 2, width: 40, checkbox: true }
+        frozenColumns: [[{ title: '', field: 'cntr_id',  width: 40, checkbox: true }
             , {
-                field: 'cntr_order_by_id', rowspan: 2, title: '编号', width: 40,
+                field: 'cntr_order_by_id',  title: '编号', width: 40,
             }
         ]],
         columns: [

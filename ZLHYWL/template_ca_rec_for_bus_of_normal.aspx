@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_ca_rec_for_bus_of_normal.aspx.cs" Inherits="ZLHYWL.template_ca_rec_for_bus_of_normal" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_ca_rec_for_bus_of_normal.aspx.cs" Inherits="Jbfd.template_ca_rec_for_bus_of_normal" %>
 <link href="Script/easy-ui-v132/themes/metro-blue/easyui.css" rel="stylesheet" /> 
 <link href="Script/easy-ui-v132/themes/icon.css" rel="stylesheet" /> 
   

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ZLHYWL
+namespace Jbfd
 {
     public partial class mana_cy_contract : System.Web.UI.Page
     {

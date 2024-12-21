@@ -7,7 +7,7 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace ZLHYWL {
+namespace Jbfd {
     
     
     public partial class template_service_info_sub {

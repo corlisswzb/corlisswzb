@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ZLHYWL.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Jbfd.Default" %>
 
 <!DOCTYPE html>
 
@@ -6,11 +6,12 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     
-    <link href="Script/easy-ui-v132/themes/metro-blue/easyui.css" rel="stylesheet" />
-    <link href="Script/easy-ui-v132/themes/icon.css" rel="stylesheet" />
+    <link href="Script/jquery-easyui-v1.11.0/themes/default/easyui.css" rel="stylesheet" />
+    <link href="Script/jquery-easyui-v1.11.0/themes/icon.css" rel="stylesheet" />
     <link href="Style/Index.css" rel="stylesheet" />
-    <script src="Script/easy-ui-v132/jquery-1.8.0.min.js"></script>
-    <script src="Script/easy-ui-v132/jquery.easyui.min.js"></script>
+    <script src="Script/jquery-easyui-v1.11.0/jquery.min.js"></script>
+    <script src="Script/jquery-easyui-v1.11.0/jquery.easyui.min.js"></script>
+    <script src="Script/jquery-easyui-v1.11.0/locale/easyui-lang-zh_CN.js"></script>
     
     <script src="Script/jquery.cookie.js"></script>
 

@@ -1,14 +1,14 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="order_record.aspx.cs" Inherits="ZLHYWL.order_record" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="order_record.aspx.cs" Inherits="Jbfd.order_record" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Style/order.css" rel="stylesheet" />
     <link href="Style/order_transport_route.css" rel="stylesheet" />
-    <script src="Js/order_record.js"></script>
-    <script src="Js/order_edit.js"></script> 
-    <script src="Js/order_cntr.js"></script> 
-
-    <script src="Js/order_fee.js"></script>
-    <script src="Js/order_service.js"></script>
-    <script src="Js/order_booking_note.js"></script>
+    
+    <script src="<%=ResolveClientUrl("Js/order_edit.js?v=" + System.Configuration.ConfigurationManager.AppSettings["JsVersion"]) %>" type="text/javascript"></script>
+    <script src="<%=ResolveClientUrl("Js/order_cntr.js?v=" + System.Configuration.ConfigurationManager.AppSettings["JsVersion"]) %>" type="text/javascript"></script>
+    <script src="<%=ResolveClientUrl("Js/order_record.js?v=" + System.Configuration.ConfigurationManager.AppSettings["JsVersion"]) %>" type="text/javascript"></script>
+    <script src="<%=ResolveClientUrl("Js/order_fee.js?v=" + System.Configuration.ConfigurationManager.AppSettings["JsVersion"]) %>" type="text/javascript"></script>
+    <script src="<%=ResolveClientUrl("Js/order_service.js?v=" + System.Configuration.ConfigurationManager.AppSettings["JsVersion"]) %>" type="text/javascript"></script>
+    <script src="<%=ResolveClientUrl("Js/order_booking_note.js?v=" + System.Configuration.ConfigurationManager.AppSettings["JsVersion"]) %>" type="text/javascript"></script>
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -308,7 +308,6 @@
                                         <td class="title">起运地:</td>
                                         <td class="value" colspan="3">
                                              <input id="ed_od_beg_place_id" class="cls_place_combogrid" style="width:296px;" /> 
-                                            
                                         </td>
                                          
                                         <td class="my_check_td" colspan="2">

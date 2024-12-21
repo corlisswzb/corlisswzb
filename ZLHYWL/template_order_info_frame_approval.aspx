@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_order_info_frame_approval.aspx.cs" Inherits="ZLHYWL.template_order_info_frame_approval" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_order_info_frame_approval.aspx.cs" Inherits="Jbfd.template_order_info_frame_approval" %>
 
 
 <link href="Script/easy-ui-v132/themes/metro-blue/easyui.css" rel="stylesheet" /> 

@@ -129,7 +129,7 @@ function init_change_order_tab() {
         showFooter: true,
         frozenColumns: [[{ title: '', field: 'od_seq', width: 40, checkbox: true },
      {
-         field: 'od_status_desc', rowspan: 2, title: '状态', width: 62, sortable: true,
+         field: 'od_status_desc',  title: '状态', width: 62, sortable: true,
          styler: function (value, row, index) {
              if (row.od_status_id == 1) {
                  if (row.amc_status == 0) return 'background-color:#dcdcdc;color:#000;';
@@ -143,7 +143,7 @@ function init_change_order_tab() {
 
      }
      , {
-         field: 'od_no', rowspan: 2, title: '业务编号', width: 90, sortable: true,
+         field: 'od_no',  title: '业务编号', width: 90, sortable: true,
 
      }
      , {

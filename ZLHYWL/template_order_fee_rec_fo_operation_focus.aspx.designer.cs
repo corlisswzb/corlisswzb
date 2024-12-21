@@ -7,7 +7,7 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace ZLHYWL {
+namespace Jbfd {
     
     
     public partial class template_order_fee_rec_fo_operation_focus {

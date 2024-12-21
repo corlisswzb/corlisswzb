@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\sysdevelopment\\websys\\zhwlSaaSwebsys\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E60619D-D6E9-4792-A24F-D128336CC142}|ZLHYWL\\JbfdWL.csproj|e:\\sysdevelopment\\websys\\zhwlsaaswebsys\\zlhywl\\js\\order_fee.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3E60619D-D6E9-4792-A24F-D128336CC142}|ZLHYWL\\JbfdWL.csproj|solutionrelative:zlhywl\\js\\order_fee.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E60619D-D6E9-4792-A24F-D128336CC142}|ZLHYWL\\JbfdWL.csproj|E:\\sysdevelopment\\websys\\zhwlSaaSwebsys\\zlhywl\\order_record.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{3E60619D-D6E9-4792-A24F-D128336CC142}|ZLHYWL\\JbfdWL.csproj|solutionrelative:zlhywl\\order_record.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "order_record.aspx",
+              "DocumentMoniker": "E:\\sysdevelopment\\websys\\zhwlSaaSwebsys\\ZLHYWL\\order_record.aspx",
+              "RelativeDocumentMoniker": "ZLHYWL\\order_record.aspx",
+              "ToolTip": "E:\\sysdevelopment\\websys\\zhwlSaaSwebsys\\ZLHYWL\\order_record.aspx",
+              "RelativeToolTip": "ZLHYWL\\order_record.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-16T02:27:06.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "order_fee.js",
+              "DocumentMoniker": "E:\\sysdevelopment\\websys\\zhwlSaaSwebsys\\ZLHYWL\\Js\\order_fee.js",
+              "RelativeDocumentMoniker": "ZLHYWL\\Js\\order_fee.js",
+              "ToolTip": "E:\\sysdevelopment\\websys\\zhwlSaaSwebsys\\ZLHYWL\\Js\\order_fee.js*",
+              "RelativeToolTip": "ZLHYWL\\Js\\order_fee.js*",
+              "ViewState": "AgIAALEDAAAAAAAAAAAYwLIDAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-16T02:26:11.713Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

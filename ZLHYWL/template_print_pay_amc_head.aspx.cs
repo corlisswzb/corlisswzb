@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 
-namespace ZLHYWL
+namespace Jbfd
 {
     public partial class template_print_pay_amc_head : System.Web.UI.Page
     {

@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" CodeBehind="ship.ashx.cs" Class="ZLHYWL.Ashx.ship" %>
+﻿<%@ WebHandler Language="C#" CodeBehind="ship.ashx.cs" Class="Jbfd.Ashx.ship" %>

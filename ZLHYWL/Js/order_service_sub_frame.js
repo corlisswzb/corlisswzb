@@ -2010,7 +2010,7 @@ function init_tab_od_service_sub_ref_cntr() {
         frozenColumns: [[{ title: '', field: 'cntr_id', width: 40, checkbox: true }, ]],
         columns: [[//显示的列
             {
-                field: 'cntr_order_by_id', rowspan: 2, title: '编号', width: 40,
+                field: 'cntr_order_by_id',  title: '编号', width: 40,
             }
             , { field: 'cntr_no', title: '箱号', sortable: true, width: 100 }
             , { field: 'opr_cod', title: '箱主', sortable: true, width: 60 }
@@ -2102,7 +2102,7 @@ function init_tab_dlg_od_route_ref_cntr() {
         frozenColumns: [[{ title: '', field: 'cntr_id', width: 40, checkbox: true }, ]],
         columns: [[//显示的列
             {
-                field: 'cntr_order_by_id', rowspan: 2, title: '编号', width: 40,
+                field: 'cntr_order_by_id', title: '编号', width: 40,
             }
             , { field: 'cntr_no', title: '箱号', sortable: true, width: 100 }
             , { field: 'opr_cod', title: '箱主', sortable: true, width: 60 }

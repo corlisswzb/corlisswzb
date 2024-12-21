@@ -1,6 +1,6 @@
 ﻿using CAL.deduction_ticket;
 using System;
-using ZLHYWL.Models.deduction_ticket;
+using Jbfd.Models.deduction_ticket;
 
 namespace BLL.deduction_ticket
 {

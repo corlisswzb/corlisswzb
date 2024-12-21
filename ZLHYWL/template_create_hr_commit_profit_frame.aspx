@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_create_hr_commit_profit_frame.aspx.cs" Inherits="ZLHYWL.template_create_hr_commit_profit_frame" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_create_hr_commit_profit_frame.aspx.cs" Inherits="Jbfd.template_create_hr_commit_profit_frame" %>
 
 <link href="Script/easy-ui-v132/themes/metro-blue/easyui.css" rel="stylesheet" /> 
 <link href="Script/easy-ui-v132/themes/icon.css" rel="stylesheet" /> 

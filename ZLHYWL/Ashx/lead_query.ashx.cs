@@ -15,7 +15,7 @@ using NPOI.HSSF.Util;
 using NPOI.SS.Util;
 using System.Drawing;
 
-namespace ZLHYWL.Ashx
+namespace Jbfd.Ashx
 {
     /// <summary>
     /// lead_query 的摘要说明

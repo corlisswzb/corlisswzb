@@ -77,7 +77,7 @@ function init_tab_order_group() {
         emptyMsg: '无法找到相关数值',
         selectOnCheck: true,
         checkOnSelect: true,
-        frozenColumns: [[{ field: 'ot_typ_desc', title: '类型', rowspan:2, sortable:true,width:60}]],
+        frozenColumns: [[{ field: 'ot_typ_desc', title: '类型', sortable:true,width:60}]],
         columns: [[
                 { title: '订单数量分类', colspan: 7, align:'center' },
                 { title: '应收情况', colspan: 3, align: 'center' },
@@ -183,7 +183,7 @@ function init_tab_rec_group() {
         selectOnCheck: true,
         checkOnSelect: true,
         frozenColumns: [[
-            { field: 'fee_cu_desc', title: '结算单位', rowspan: 2, sortable: true, width: 260 } 
+            { field: 'fee_cu_desc', title: '结算单位', sortable: true, width: 260 } 
         ]],
         columns: [[
                 { title: '总体情况', colspan: 3, align: 'center' },
@@ -359,7 +359,7 @@ function init_tab_pay_group() {
         selectOnCheck: true,
         checkOnSelect: true,
         frozenColumns: [[
-            { field: 'fee_cu_desc', title: '结算单位', rowspan: 2, sortable: true, width: 260 }
+            { field: 'fee_cu_desc', title: '结算单位', sortable: true, width: 260 }
         ]],
         columns: [[
                 { title: '总体情况', colspan: 3, align: 'center' },

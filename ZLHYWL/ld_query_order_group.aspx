@@ -1,7 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="ld_query_order_group.aspx.cs" Inherits="ZLHYWL.ld_query_order_group" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="ld_query_order_group.aspx.cs" Inherits="Jbfd.ld_query_order_group" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="Js/ld_query_order_group.js"></script>
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div data-options="fit:true" class="easyui-layout">
         <div data-options="region:'north',title:'', split:false,border:false" style="height:304px;" >
@@ -41,6 +43,7 @@
                 </div>
             </div>
         </div>
+
         <div data-options="region:'center',border:false,split:false">
             <!--要分三个部分--->
             <div id="tabs" class="easyui-tabs" data-options="fit:true, border:false">
@@ -52,5 +55,6 @@
                 </div>
             </div> 
         </div>
+
     </div>
 </asp:Content>

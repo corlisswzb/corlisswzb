@@ -9,7 +9,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
  
 
-namespace ZLHYWL
+namespace Jbfd
 {
     public partial class main_page : System.Web.UI.MasterPage
     {

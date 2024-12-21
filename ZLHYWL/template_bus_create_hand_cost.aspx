@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_bus_create_hand_cost.aspx.cs" Inherits="ZLHYWL.template_bus_create_hand_cost" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_bus_create_hand_cost.aspx.cs" Inherits="Jbfd.template_bus_create_hand_cost" %>
 <link href="Script/easy-ui-v132/themes/metro-blue/easyui.css" rel="stylesheet" /> 
 <link href="Script/easy-ui-v132/themes/icon.css" rel="stylesheet" /> 
 <link href="Style/public.css" rel="stylesheet" /> 

@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using ZLHYWL.Models.deduction_ticket;
+using Jbfd.Models.deduction_ticket;
 
 namespace CAL.deduction_ticket
 {

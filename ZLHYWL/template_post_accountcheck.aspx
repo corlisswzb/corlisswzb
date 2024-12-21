@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_post_accountcheck.aspx.cs" Inherits="ZLHYWL.templage_post_accountcheck" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_post_accountcheck.aspx.cs" Inherits="Jbfd.templage_post_accountcheck" %>
 
 <link href="Script/easy-ui-v132/themes/metro-blue/easyui.css" rel="stylesheet" /> 
 <link href="Script/easy-ui-v132/themes/icon.css" rel="stylesheet" /> 

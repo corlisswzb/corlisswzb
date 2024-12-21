@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_route_bind_ship_voyage.aspx.cs" Inherits="ZLHYWL.templage_route_bind_ship_voyage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="template_route_bind_ship_voyage.aspx.cs" Inherits="Jbfd.templage_route_bind_ship_voyage" %>
 
 <link href="Script/easy-ui-v132/themes/metro-blue/easyui.css" rel="stylesheet" /> 
 <link href="Script/easy-ui-v132/themes/icon.css" rel="stylesheet" /> 

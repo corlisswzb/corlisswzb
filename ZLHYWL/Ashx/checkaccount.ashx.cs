@@ -16,7 +16,7 @@ using NPOI.SS.Util;
 using System.Text;
  
 
-namespace ZLHYWL.Ashx
+namespace Jbfd.Ashx
 {
     /// <summary>
     /// checkaccount 的摘要说明

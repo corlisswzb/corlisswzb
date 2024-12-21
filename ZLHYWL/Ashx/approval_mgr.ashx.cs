@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.SessionState;
 using BLL.commone;
 
-namespace ZLHYWL.Ashx
+namespace Jbfd.Ashx
 {
     /// <summary>
     /// approval_mgr 的摘要说明

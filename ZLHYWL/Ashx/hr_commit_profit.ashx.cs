@@ -6,7 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.SessionState;
 
-namespace ZLHYWL.Ashx
+namespace Jbfd.Ashx
 {
     /// <summary>
     /// hr_commit_profit 的摘要说明

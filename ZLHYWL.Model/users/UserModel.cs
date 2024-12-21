@@ -1,6 +1,6 @@
 ﻿using SqlSugar;
 
-namespace ZLHYWL.Models.users
+namespace Jbfd.Models.users
 {
     public class UserModel
     {

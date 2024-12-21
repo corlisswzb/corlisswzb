@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="maintain_data.aspx.cs" Inherits="ZLHYWL.maintain_data" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/main_page.Master" AutoEventWireup="true" CodeBehind="maintain_data.aspx.cs" Inherits="Jbfd.maintain_data" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <script src="Js/basedata_mgr.js"></script>
 </asp:Content>

@@ -96,7 +96,7 @@ namespace BLL.commone
 
                 mail_address ma = mf.get_address();
                 //发送邮件
-                mailhelper.SendEmail("ZLHYWL--异常汇报", ma.From_en, ma.From_pwd, ma.From_smtp, ma.To_en, string.Empty,
+                mailhelper.SendEmail("Jbfd--异常汇报", ma.From_en, ma.From_pwd, ma.From_smtp, ma.To_en, string.Empty,
                      string.Format("<h3>亲爱的管理员,您好!</h3><br/><br/><p>系统发生异常,位置:{0},时间:{1},异常信息:{2}</p>", where, when, how), null);
             }
             catch (Exception e)

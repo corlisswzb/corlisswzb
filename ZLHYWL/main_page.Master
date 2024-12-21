@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main_page.master.cs" Inherits="ZLHYWL.main_page" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main_page.master.cs" Inherits="Jbfd.main_page" %>
 
 <!DOCTYPE html>
 
@@ -6,14 +6,16 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>智联货运管理系统</title>
-    <link href="Script/easy-ui-v132/themes/metro-blue/easyui.css" rel="stylesheet" /> 
-    <link href="Script/easy-ui-v132/themes/icon.css" rel="stylesheet" />
+    <link href="Script/jquery-easyui-v1.11.0/themes/default/easyui.css" rel="stylesheet" />
+    <link href="Script/jquery-easyui-v1.11.0/themes/icon.css" rel="stylesheet" />
     <link href="Style/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" />
-    <link href="Style/public.css" rel="stylesheet" /> 
-    <script src="Script/easy-ui-v132/jquery-1.8.0.min.js"></script>
-    <script src="Script/easy-ui-v132/jquery.easyui.min.js"></script>
-    <script src="Script/easy-ui-v132/locale/easyui-lang-zh_CN.js"></script>
-     <script src="Script/jquery.cookie.js"></script>
+    <link href="Style/fonts/HarmonyOS/css/HarmonyOS.css" rel="stylesheet" />
+    <link href="Style/public.css" rel="stylesheet" />
+
+    <script src="Script/jquery-easyui-v1.11.0/jquery.min.js"></script>
+    <script src="Script/jquery-easyui-v1.11.0/jquery.easyui.min.js"></script>
+    <script src="Script/jquery-easyui-v1.11.0/locale/easyui-lang-zh_CN.js"></script>
+    <script src="Script/jquery.cookie.js"></script>
    <%-- <script src="Script/layer/layer.js"></script>
     <script src="Script/jquery-easyui-datagridview/datagrid-detailview.js"></script>--%>
     <!--easyui扩展-->
@@ -26,14 +28,16 @@
     
     <%--<script type="text/javascript" src="http://www.jq22.com/demo/clipboard.js-master201703170013/dist/clipboard.min.js"></script>--%>
     
-    <script src="Js/public.js"></script> 
-    <script src="Js/master.js"></script>
+    <script src="<%=ResolveClientUrl("Js/public.js?v=" + System.Configuration.ConfigurationManager.AppSettings["JsVersion"]) %>" type="text/javascript"></script>
+    <script src="<%=ResolveClientUrl("Js/master.js?v=" + System.Configuration.ConfigurationManager.AppSettings["JsVersion"]) %>" type="text/javascript"></script>
 
      
     <asp:ContentPlaceHolder ID="head" runat="server">
          
     </asp:ContentPlaceHolder>
+
 </head>
+
 <body class="easyui-layout"> 
     <!--头部内容--->
     <div data-options="region:'north',border:false" style="height:40px;overflow:hidden;">

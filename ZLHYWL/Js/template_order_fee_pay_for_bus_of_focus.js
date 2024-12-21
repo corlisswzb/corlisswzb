@@ -389,7 +389,7 @@ function init_tab_fee_list() {
             }
             
             , {
-                field: 'od_status_desc', rowspan: 2, title: '业务审核', width: 80, sortable: true,
+                field: 'od_status_desc', title: '业务审核', width: 80, sortable: true,
                 styler: function (value, row, index) {
                     if (row.od_status_id == 1) {
                         if (row.od_amc_status == 0) return 'background-color:#dcdcdc;color:#000;';
